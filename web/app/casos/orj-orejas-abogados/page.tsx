@@ -7,14 +7,14 @@ import Interactions from "../../components/Interactions";
 import { OrganizationSchema, BreadcrumbSchema } from "../../components/Schema";
 
 export const metadata: Metadata = {
-  title: "Caso Orejas Abogados · SEO local y Google Ads provincial",
+  title: "Referencia · Orejas Abogados (proyecto The Funnel Box)",
   description:
-    "Caso real: cómo posicionar un despacho con base en Oviedo con SEO local, Google Ads provincial y Meta Ads. Dos verticales distintas, un solo equipo.",
+    "Proyecto ejecutado por The Funnel Box para Orejas Abogados: SEO local, Google Ads provincial y Meta Ads para despacho con base en Oviedo. Dos verticales con scope distinto.",
   alternates: { canonical: "/casos/orj-orejas-abogados/" },
   openGraph: {
-    title: "Caso Orejas Abogados · TFB Legal",
+    title: "Referencia · Orejas Abogados · TFB Legal",
     description:
-      "Despacho con base en Oviedo. SEO local + Google Ads provincial + Meta Ads para revolving y Segunda Oportunidad.",
+      "Proyecto de The Funnel Box en el sector legal: SEO local + Google Ads provincial + Meta Ads para despacho con base en Oviedo.",
     url: "/casos/orj-orejas-abogados/",
     type: "article",
     locale: "es_ES",
@@ -49,25 +49,26 @@ export default function CasoORJPage() {
         <div className="band-inner">
           <div className="hero-row">
             <div>
-              <div className="eyebrow">Caso · Civil · España</div>
+              <div className="eyebrow">Referencia · Proyecto de The Funnel Box</div>
               <h1 className="hero-title">
                 Orejas Abogados: cómo posicionar un despacho fuera del eje Madrid–Barcelona.
               </h1>
               <p className="hero-sub">
-                Despacho con base en Oviedo. Dos verticales con distinto scope: reclamación de
-                tarjetas revolving (toda España) y Ley de Segunda Oportunidad (Asturias). SEO
-                local, Google Ads provincial y Meta Ads trabajando distinto por vertical.
+                Proyecto ejecutado por The Funnel Box para Orejas Abogados. Despacho con base
+                en Oviedo, dos verticales con distinto scope: reclamación de tarjetas revolving
+                (toda España) y Ley de Segunda Oportunidad (Asturias). SEO local, Google Ads
+                provincial y Meta Ads trabajando distinto por vertical.
               </p>
             </div>
             <dl className="hero-aside">
+              <dt>Operador</dt>
+              <dd>The Funnel Box</dd>
               <dt>Sector</dt>
               <dd>Civil · Consumo</dd>
               <dt>Mercado</dt>
               <dd>Asturias · nacional</dd>
               <dt>Verticales</dt>
               <dd>Revolving · Segunda Oportunidad</dd>
-              <dt>Duración</dt>
-              <dd>Ongoing</dd>
             </dl>
           </div>
         </div>
@@ -171,6 +172,10 @@ export default function CasoORJPage() {
               <Link href="/servicios/marketing-juridico/" className="btn btn-ghost">Ver servicio completo</Link>
             </div>
           </div>
+          <p className="prose" style={{ maxWidth: "60ch", marginTop: "clamp(20px, 2vw, 32px)", fontSize: "13px", color: "var(--muted)" }}>
+            Esta página describe el proyecto desde la óptica del operador (The Funnel Box). No
+            es un testimonio del despacho y no incluye cifras privadas de pipeline del cliente.
+          </p>
         </div>
       </section>
 

@@ -7,14 +7,14 @@ import Interactions from "../components/Interactions";
 import { OrganizationSchema, BreadcrumbSchema } from "../components/Schema";
 
 export const metadata: Metadata = {
-  title: "Casos · Despachos acompañados por TFB Legal",
+  title: "Referencias · Proyectos legales de The Funnel Box",
   description:
-    "Casos reales de despachos de abogados: migración WordPress → stack propio, SEO técnico, atribución de leads, SEO local, Google Ads provincial, IA aplicada al despacho.",
+    "Proyectos ejecutados por The Funnel Box en el sector legal: migraciones web, SEO técnico, atribución de leads al CRM, SEO local, Google Ads provincial, IA aplicada al despacho.",
   alternates: { canonical: "/casos/" },
   openGraph: {
-    title: "Casos · TFB Legal",
+    title: "Referencias · TFB Legal",
     description:
-      "Dos casos vivos en España (Gestores Concursales, Orejas Abogados) y un piloto mexicano por arrancar.",
+      "Proyectos ejecutados por The Funnel Box en el sector legal. Dos en España y un piloto mexicano por arrancar.",
     url: "/casos/",
     type: "website",
     locale: "es_ES",
@@ -42,24 +42,24 @@ export default function CasosHub() {
         <div className="band-inner">
           <div className="hero-row">
             <div>
-              <div className="eyebrow">Casos</div>
-              <h1 className="hero-title">Lo que ya hicimos con despachos reales.</h1>
+              <div className="eyebrow">Referencias · Proyectos de The Funnel Box</div>
+              <h1 className="hero-title">Proyectos ejecutados en el sector legal.</h1>
               <p className="hero-sub">
-                Dos casos vivos en España, un piloto en México por arrancar. Cada caso muestra el
-                contexto, el problema y lo que ejecutamos con cifras honestas — no narrativas
-                infladas.
+                Proyectos que el equipo que hoy forma TFB Legal viene ejecutando desde The
+                Funnel Box. Cada referencia muestra el contexto, el problema y lo que se
+                hizo — sin cifras infladas ni datos privados de los despachos.
               </p>
               <div className="hero-actions">
                 <Link href="/contacto/" className="btn btn-primary btn-arrow">Agendar diagnóstico</Link>
               </div>
             </div>
             <dl className="hero-aside">
-              <dt>Casos activos</dt>
-              <dd>2 live · 1 próximo</dd>
+              <dt>Proyectos listados</dt>
+              <dd>2 activos · 1 próximo</dd>
               <dt>Mercados</dt>
               <dd>España · México (próximo)</dd>
-              <dt>Verticales</dt>
-              <dd>Concursal · Civil · Fiscal</dd>
+              <dt>Operador</dt>
+              <dd>The Funnel Box</dd>
             </dl>
           </div>
         </div>
@@ -67,11 +67,16 @@ export default function CasosHub() {
 
       <section className="band" style={{ borderTop: "1px solid var(--line)" }}>
         <div className="band-inner">
+          <p className="prose" style={{ maxWidth: "62ch", marginBottom: "clamp(24px, 3vw, 36px)" }}>
+            Las referencias que siguen son proyectos de <strong>The Funnel Box</strong> en el
+            sector legal. El equipo que hoy forma TFB Legal lleva estos proyectos activos.
+            Son referencias de experiencia, no testimonios de los despachos citados.
+          </p>
           <table className="casos-table">
             <thead>
               <tr>
-                <th>Cliente</th>
-                <th className="hide-mobile">Qué hicimos</th>
+                <th>Proyecto</th>
+                <th className="hide-mobile">Qué se ejecutó</th>
                 <th className="hide-mobile">Sector</th>
                 <th></th>
               </tr>
@@ -127,7 +132,7 @@ export default function CasosHub() {
       <section className="band soft-band">
         <div className="band-inner">
           <div className="cta-block">
-            <h3>¿Tu despacho podría ser el próximo caso?</h3>
+            <h3>¿Tu despacho podría ser la próxima referencia?</h3>
             <p>
               Trabajamos con despachos de 5 a 30 abogados que quieren crecer sin perder la calidad
               del oficio. Agendá 30 minutos y lo evaluamos.

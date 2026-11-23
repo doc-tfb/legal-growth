@@ -7,14 +7,14 @@ import Interactions from "../../components/Interactions";
 import { OrganizationSchema, BreadcrumbSchema } from "../../components/Schema";
 
 export const metadata: Metadata = {
-  title: "Caso Gestores Concursales · Migración + SEO técnico + CRM",
+  title: "Referencia · Gestores Concursales (proyecto The Funnel Box)",
   description:
-    "Caso real: migración del WordPress legacy de Gestores Concursales a stack propio con SEO técnico, Core Web Vitals en verde y atribución end-to-end al CRM.",
+    "Proyecto ejecutado por The Funnel Box para Gestores Concursales: migración WordPress → stack propio, SEO técnico, Core Web Vitals en verde y atribución end-to-end al CRM.",
   alternates: { canonical: "/casos/gce-gestores-concursales/" },
   openGraph: {
-    title: "Caso Gestores Concursales · TFB Legal",
+    title: "Referencia · Gestores Concursales · TFB Legal",
     description:
-      "Migración WordPress → stack propio, SEO técnico, atribución CRM. 0 pérdida de posicionamiento.",
+      "Proyecto de The Funnel Box en el sector legal: migración WordPress → stack propio, SEO técnico, atribución CRM.",
     url: "/casos/gce-gestores-concursales/",
     type: "article",
     locale: "es_ES",
@@ -49,23 +49,24 @@ export default function CasoGCEPage() {
         <div className="band-inner">
           <div className="hero-row">
             <div>
-              <div className="eyebrow">Caso · Concursal · España</div>
+              <div className="eyebrow">Referencia · Proyecto de The Funnel Box</div>
               <h1 className="hero-title">
                 Gestores Concursales: migración integral y atribución real al CRM.
               </h1>
               <p className="hero-sub">
-                Despacho especializado en concurso de acreedores. Llegaba con WordPress lento, sin
-                atribución y con un pipeline que terminaba en un Excel. Salió con stack propio, SEO
-                técnico al día y cada contacto llegando al CRM con su origen.
+                Proyecto ejecutado por The Funnel Box para Gestores Concursales. Despacho
+                especializado en concurso de acreedores que llegaba con WordPress lento, sin
+                atribución y con un pipeline que terminaba en un Excel. Salió con stack propio,
+                SEO técnico al día y cada contacto llegando al CRM con su origen.
               </p>
             </div>
             <dl className="hero-aside">
+              <dt>Operador</dt>
+              <dd>The Funnel Box</dd>
               <dt>Sector</dt>
               <dd>Concurso de acreedores</dd>
               <dt>Mercado</dt>
               <dd>España · nacional</dd>
-              <dt>Socios</dt>
-              <dd>Mónica Usón · Leticia Montalvo</dd>
               <dt>Duración</dt>
               <dd>4 meses</dd>
             </dl>
@@ -81,10 +82,9 @@ export default function CasoGCEPage() {
           <div className="prose">
             <p>
               Despacho español de referencia en concurso de acreedores, con oficinas en Madrid y
-              Barcelona, dirigido por Mónica Usón y Leticia Montalvo. Operaban con una web
-              WordPress que había crecido de forma orgánica durante años: lenta en mobile, con
-              deuda técnica SEO, sin schema estructurado y con un flujo de leads que terminaba en
-              un Excel sin atribución.
+              Barcelona. Operaba con una web WordPress que había crecido de forma orgánica
+              durante años: lenta en mobile, con deuda técnica SEO, sin schema estructurado y con
+              un flujo de leads que terminaba en un Excel sin atribución.
             </p>
             <p>
               El reto no era rediseñar por rediseñar. Era migrar a un stack moderno sin perder
@@ -168,8 +168,12 @@ export default function CasoGCEPage() {
           </div>
           <div className="kv-table">
             <div className="kv-row">
+              <div className="kv-k">Operador</div>
+              <div className="kv-v">The Funnel Box</div>
+            </div>
+            <div className="kv-row">
               <div className="kv-k">Dirección técnica</div>
-              <div className="kv-v">Gonzalo Castro (The Funnel Box)</div>
+              <div className="kv-v">Gonzalo Castro</div>
             </div>
             <div className="kv-row">
               <div className="kv-k">Ejecución frontend + CMS</div>
@@ -179,11 +183,12 @@ export default function CasoGCEPage() {
               <div className="kv-k">SEO técnico y atribución</div>
               <div className="kv-v">Equipo The Funnel Box</div>
             </div>
-            <div className="kv-row">
-              <div className="kv-k">Interlocución con socios</div>
-              <div className="kv-v">Gonzalo Castro + Carla Fresch Pons</div>
-            </div>
           </div>
+          <p className="prose" style={{ maxWidth: "60ch", marginTop: "clamp(20px, 2vw, 32px)", fontSize: "13px", color: "var(--muted)" }}>
+            Esta página describe el proyecto desde la óptica del operador (The Funnel Box). No
+            es un testimonio del despacho y no incluye datos sensibles ni cifras privadas de
+            pipeline del cliente.
+          </p>
         </div>
       </section>
 
