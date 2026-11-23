@@ -112,7 +112,7 @@ El despacho de Leticia Montalvo y Mónica Usón, especializadas en derecho concu
 
 **Foto sugerida:** [COMPLETAR: logo o foto con permiso]. No uses `fotos/descartado-casos/`.
 
-> **Nota para Iris:** Caso autorizado el 23/11/2026 (decisión de Gonzalo, vía Neo): usar lo publicado en thefunnelbox.com. Detalle y advertencias sobre cifras en `12-casos-gce-gestores-concursales.md` y `FUENTES.md`. Hay también fichas de Orejas Abogados y M20 en `/casos/`.
+> **Nota para Iris:** Gestores Concursales y Orejas Abogados están aprobados (decisión de Gonzalo, 23/11/2026, vía Neo). Detalle y advertencias sobre cifras en `12-casos-gce-gestores-concursales.md`, `13-casos-orj-orejas-abogados.md` y `FUENTES.md`. También hay ficha de Orejas Abogados en `/casos/`.
 
 ---
 
@@ -122,10 +122,9 @@ El despacho de Leticia Montalvo y Mónica Usón, especializadas en derecho concu
 
 **Cuerpo:**
 
-Estas dos citas están publicadas en thefunnelbox.com/casos-de-exito. No hay, en esas cards, un cargo ni una fecha. No se añaden reseñas de /equipo que no sean de estos despachos.
+Esta cita está publicada en thefunnelbox.com/casos-de-exito, bajo Gestores Concursales. No hay, en esa card, un cargo ni una fecha. No se añaden reseñas de /equipo que no sean de los despachos de esta web.
 
 - Gestores Concursales: «Cada vez tenemos más clientes de los que queremos»
-- Pedro Miralles: «Se dispararon las ventas, los contactos, y el proyecto está yendo fenomenal»
 
 **Foto sugerida:** ninguna, salvo logo o retrato con permiso. No uses fotos de stock ni `fotos/descartado-casos/`.
 

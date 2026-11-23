@@ -62,7 +62,7 @@ La explicación del sistema está en [https://thefunnelbox.com/sistema-despachos
 
 **Cuerpo:**
 
-En thefunnelbox.com están publicados, entre otros, los casos de Gestores Concursales, Orejas Abogados y M20 (Pedro Miralles). Los datos y las citas de esta web salen de esas páginas.
+En thefunnelbox.com están publicados los casos de Gestores Concursales y Orejas Abogados, con el OK de Gonzalo (23/11/2026). Los datos y las citas de esta web salen de esas páginas.
 
 **CTA:** Ver casos → `/casos/`
 

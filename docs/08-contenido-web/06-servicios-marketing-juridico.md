@@ -72,7 +72,7 @@ El detalle del proceso está en la página de metodología.
 
 **Cuerpo:**
 
-El trabajo de marketing con despachos está publicado, entre otros, en los casos de Gestores Concursales, Orejas Abogados y M20. Las cifras están en cada ficha, tomadas de thefunnelbox.com.
+El trabajo de marketing con despachos está publicado en los casos de Gestores Concursales y Orejas Abogados. Las cifras están en cada ficha, tomadas de thefunnelbox.com, con el OK de Gonzalo.
 
 **CTA:** Ver casos → `/casos/`
 
