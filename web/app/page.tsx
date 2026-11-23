@@ -1,30 +1,11 @@
 import Interactions from "./components/Interactions";
+import SiteHeader from "./components/SiteHeader";
+import SiteFooter from "./components/SiteFooter";
 
 export default function Home() {
-  const year = new Date().getFullYear();
-
   return (
     <>
-      <div className="status-bar">
-        <strong>Borrador operativo</strong>
-        <span>Copy y rangos sujetos a cambios</span>
-      </div>
-
-      <nav className="nav" id="nav">
-        <div className="nav-row">
-          <a href="#" className="brand">
-            TFB <em>·</em> Legal
-          </a>
-          <div className="nav-links">
-            <a href="#servicios">Servicios</a>
-            <a href="#casos">Casos</a>
-            <a href="#metodologia">Metodología</a>
-            <a href="#journal">Journal</a>
-            <a href="#contacto">Contacto</a>
-          </div>
-          <a href="#contacto" className="nav-cta">Agendar 30′</a>
-        </div>
-      </nav>
+      <SiteHeader />
 
       {/* HERO compacto */}
       <header className="hero">
@@ -40,8 +21,8 @@ export default function Home() {
                 real al cliente firmado. Para despachos medianos en España, México y Argentina.
               </p>
               <div className="hero-actions">
-                <a href="#servicios" className="btn btn-primary btn-arrow">Ver servicios</a>
-                <a href="#contacto" className="btn btn-ghost">Agendar 30 minutos</a>
+                <a href="/servicios/" className="btn btn-primary btn-arrow">Ver servicios</a>
+                <a href="/contacto/" className="btn btn-ghost">Agendar 30 minutos</a>
               </div>
               <ul className="chips" style={{ marginTop: "28px" }}>
                 <li className="chip"><span className="chip-dot"></span>España</li>
@@ -109,7 +90,7 @@ export default function Home() {
                 <dd className="spec-v">90 días</dd>
               </div>
             </dl>
-            <a href="#contacto" className="service-cta">Hablar de este servicio</a>
+            <a href="/servicios/marketing-juridico/" className="service-cta">Ver servicio</a>
           </article>
 
           <article className="service reveal">
@@ -147,7 +128,7 @@ export default function Home() {
                 <dd className="spec-v">30 días</dd>
               </div>
             </dl>
-            <a href="#contacto" className="service-cta">Hablar de este servicio</a>
+            <a href="/servicios/consultoria-estrategica/" className="service-cta">Ver servicio</a>
           </article>
 
           <article className="service reveal">
@@ -185,7 +166,7 @@ export default function Home() {
                 <dd className="spec-v">Propio + plantillas</dd>
               </div>
             </dl>
-            <a href="#contacto" className="service-cta">Hablar de este servicio</a>
+            <a href="/servicios/formacion-para-despachos/" className="service-cta">Ver servicio</a>
           </article>
 
           <article className="service reveal">
@@ -223,7 +204,7 @@ export default function Home() {
                 <dd className="spec-v">Con 30 días de anticipación</dd>
               </div>
             </dl>
-            <a href="#contacto" className="service-cta">Hablar de este servicio</a>
+            <a href="/servicios/speaker-conferencias/" className="service-cta">Ver servicio</a>
           </article>
         </div>
       </section>
@@ -262,7 +243,7 @@ export default function Home() {
                   <span className="caso-chip">Concursal · ES</span>
                 </td>
                 <td>
-                  <a href="#" className="caso-link">Caso</a>
+                  <a href="/casos/gce-gestores-concursales/" className="caso-link">Caso</a>
                 </td>
               </tr>
               <tr>
@@ -280,7 +261,7 @@ export default function Home() {
                   <span className="caso-chip">Civil · Oviedo</span>
                 </td>
                 <td>
-                  <a href="#" className="caso-link">Caso</a>
+                  <a href="/casos/orj-orejas-abogados/" className="caso-link">Caso</a>
                 </td>
               </tr>
               <tr>
@@ -306,7 +287,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* METODOLOGÍA — 4 pasos reales (secuencia legítima) */}
+      {/* METODOLOGÍA */}
       <section id="metodologia" className="band soft-band">
         <div className="band-inner">
           <div className="section-head">
@@ -354,6 +335,9 @@ export default function Home() {
               <div className="step-time">Continuo</div>
             </div>
           </div>
+          <div style={{ marginTop: "clamp(32px, 4vw, 48px)" }}>
+            <a href="/metodologia/" className="btn btn-ghost btn-arrow">Ver metodología completa</a>
+          </div>
         </div>
       </section>
 
@@ -369,7 +353,7 @@ export default function Home() {
 
           <ul className="journal-list">
             <li>
-              <a href="#" className="journal-entry">
+              <a href="/blog/" className="journal-entry">
                 <span className="journal-date">Nov 2026 · Marketing</span>
                 <h3 className="journal-title-entry">
                   Cómo armar un plan de marketing anual para un despacho de 15 personas.
@@ -378,7 +362,7 @@ export default function Home() {
               </a>
             </li>
             <li>
-              <a href="#" className="journal-entry">
+              <a href="/blog/" className="journal-entry">
                 <span className="journal-date">Nov 2026 · Gestión</span>
                 <h3 className="journal-title-entry">
                   El socio-director como cuello de botella: señales y qué hacer.
@@ -387,7 +371,7 @@ export default function Home() {
               </a>
             </li>
             <li>
-              <a href="#" className="journal-entry">
+              <a href="/blog/" className="journal-entry">
                 <span className="journal-date">Oct 2026 · IA</span>
                 <h3 className="journal-title-entry">
                   IA para despachos en 2026: qué hace realmente y qué no.
@@ -396,7 +380,7 @@ export default function Home() {
               </a>
             </li>
             <li>
-              <a href="#" className="journal-entry">
+              <a href="/blog/" className="journal-entry">
                 <span className="journal-date">Oct 2026 · SEO</span>
                 <h3 className="journal-title-entry">
                   SEO local para despachos por ciudad: cómo rankear en provincia.
@@ -405,21 +389,13 @@ export default function Home() {
               </a>
             </li>
           </ul>
-        </div>
-      </section>
-
-      {/* IMPULSADA POR */}
-      <section className="promoters">
-        <div className="band-inner">
-          <div className="promoters-row">
-            <span className="promoters-label">Impulsada por</span>
-            <span className="promoter">the funnel <em>box</em></span>
-            <span className="promoter">Brandly</span>
+          <div style={{ marginTop: "clamp(24px, 3vw, 36px)" }}>
+            <a href="/blog/" className="btn btn-ghost btn-arrow">Ir al journal</a>
           </div>
         </div>
       </section>
 
-      {/* CONTACTO (sin fotos, con bios breves) */}
+      {/* CONTACTO breve */}
       <section id="contacto" className="band dark-band">
         <div className="band-inner">
           <div className="contact-grid">
@@ -431,11 +407,8 @@ export default function Home() {
                 accionables. Si hay encaje, armamos propuesta.
               </p>
               <div className="contact-actions">
-                <a href="#" className="btn btn-invert-primary btn-arrow">Agendar 30 minutos</a>
-                <a
-                  href="mailto:gonzalo@thefunnelbox.com"
-                  className="btn btn-invert-ghost"
-                >
+                <a href="/contacto/" className="btn btn-invert-primary btn-arrow">Agendar 30 minutos</a>
+                <a href="mailto:gonzalo@thefunnelbox.com" className="btn btn-invert-ghost">
                   gonzalo@thefunnelbox.com
                 </a>
               </div>
@@ -444,73 +417,23 @@ export default function Home() {
               <div className="sig-row">
                 <div className="sig-name">Gonzalo Castro</div>
                 <div className="sig-role">
-                  Director y fundador de The Funnel Box. Marketing jurídico, IA y escalado. Base
-                  en España.
+                  Director y fundador de The Funnel Box. Marketing jurídico, IA y escalado.
                 </div>
-                <a href="#" className="sig-link">LinkedIn</a>
+                <a href="/nosotros/gonzalo-castro/" className="sig-link">Perfil completo</a>
               </div>
               <div className="sig-row">
                 <div className="sig-name">Carla Fresch Pons</div>
                 <div className="sig-role">
-                  Más de diez años en el Poder Judicial de Argentina. Consultoría estratégica y
-                  mercado AR.
+                  Más de diez años en el Poder Judicial de Argentina. Consultoría y mercado AR.
                 </div>
-                <a href="#" className="sig-link">LinkedIn</a>
+                <a href="/nosotros/carla-fresch-pons/" className="sig-link">Perfil completo</a>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer>
-        <div className="footer-inner">
-          <div className="footer-grid">
-            <div>
-              <h3 className="footer-brand-name">TFB Legal</h3>
-              <p className="footer-brand-p">
-                Marketing, consultoría, formación y speaker para despachos de abogados medianos en
-                España, México y Argentina.
-              </p>
-            </div>
-            <div className="footer-col">
-              <h4>Servicios</h4>
-              <ul>
-                <li><a href="#servicios">Marketing jurídico</a></li>
-                <li><a href="#servicios">Consultoría</a></li>
-                <li><a href="#servicios">Formación</a></li>
-                <li><a href="#servicios">Speaker</a></li>
-              </ul>
-            </div>
-            <div className="footer-col">
-              <h4>Más</h4>
-              <ul>
-                <li><a href="#casos">Casos</a></li>
-                <li><a href="#metodologia">Metodología</a></li>
-                <li><a href="#journal">Journal</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-              </ul>
-            </div>
-            <div className="footer-col">
-              <h4>Impulsada por</h4>
-              <ul>
-                <li><a href="https://thefunnelbox.com">The Funnel Box</a></li>
-                <li><a href="#">Brandly</a></li>
-              </ul>
-            </div>
-          </div>
-          <div className="footer-bottom">
-            <div>&copy; {year} TFB Legal · tfblegal.com</div>
-            <div className="footer-bottom-right">
-              <a href="#">Aviso legal</a>
-              <a href="#">Privacidad</a>
-              <a href="#">Cookies</a>
-              <button type="button" className="theme-toggle" id="themeToggle">Tema</button>
-            </div>
-          </div>
-        </div>
-      </footer>
-
+      <SiteFooter />
       <Interactions />
     </>
   );
