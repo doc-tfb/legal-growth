@@ -1,6 +1,6 @@
 # Fuentes de los datos publicados
 
-Cada hecho que el copy da por bueno remite a una ruta o a una URL abierta el 23 de noviembre de 2026 (Europe/Skopje, UTC+1). Lo que no tiene fuente no se publicó: va como `[COMPLETAR]`. Las notas para Iris no son fuente.
+Cada hecho que el copy da por bueno remite a una ruta o a una URL. Las fuentes de casos y de marca se consultaron de nuevo el 23 de noviembre de 2026 (Europe/Skopje, UTC+1). El resto de hechos de esta entrega se documentó el mismo día, en la primera pasada. Lo que no tiene fuente no se publicó: va como `[COMPLETAR]`. Las notas para Iris no son fuente.
 
 Los HTML y PDF de trabajo de esta preparación están también, en el box, bajo `/workspace/lgs/contenido-web/fuentes-texto/`. El brochure vigente de despachos, en la campaña de México, se envía con el nombre `Brochure-Gonzalo-Castro-Abogados.pdf` y el archivo real es `speaker-charla-abogados-neutro-v3-liviano.pdf` (misma línea que v3 / v2-carla).
 
@@ -94,10 +94,65 @@ En https://thefunnelbox.com/equipo la ficha es más corta (LinkedIn, comunicaci�
 
 ---
 
+
+## Marca y presentación (23/11/2026)
+
+**Marca definitiva: TFB Legal.** Decisión de Gonzalo, 23/11/2026, vía Neo: «TFB Legal es la marca defnitiva». El dominio, los handles y el wordmark propio siguen en [COMPLETAR].
+
+**Presentación:** «colaboración diferecta y fundadores The Funnel Box y Brandly» (mismo mensaje; se interpreta «colaboración directa»). En el copy: TFB Legal es una colaboración directa entre los fundadores de The Funnel Box (Gonzalo Castro) y de Brandly (Carla Fresch Pons).
+
+Los reconocimientos OpenAI Select Partner y el perfil preaprobado de Forbes Business Council se siguen atribuyendo a The Funnel Box, que es como figuran en las fuentes de más arriba.
+
+---
+
+## Casos de despachos publicados en thefunnelbox.com
+
+Consulta del 23 de noviembre de 2026, 14:24 (Europe/Skopje, UTC+1). HTML guardado en `/workspace/lgs/contenido-web/fuentes-texto/web-tfb/` y texto visible en `fuentes-texto/web-tfb/extracted/`. Diario de la consulta: `fuentes-texto/web-tfb/CONSULTA.md`.
+
+Gonzalo autorizó ese mismo día, vía Neo, usar «los casos los que vea en TFB».
+
+### Listado
+
+- https://thefunnelbox.com/casos-de-exito
+
+### Gestores Concursales
+
+- Ficha: https://thefunnelbox.com/blog/caso-de-exito-gestores-concursales (fecha visible en la página: 4 sep 2026)
+- Card en /casos-de-exito, con la cita «Cada vez tenemos más clientes de los que queremos» y el resumen de Leticia y Mónica, estrategia desde cero (posicionamiento, publicidad digital, automatizaciones, CRM, flujos comerciales y contenido) y el paso de depender de recomendaciones a un sistema estable de captación y crecimiento continuo.
+- Datos usados de la ficha (sin redondear): Leticia Montalvo y Mónica Usón; ICADE; colegiadas en Madrid, Barcelona y San Sebastián; 5,0 sobre 5 en Google, con 20 valoraciones; +800 % de tráfico orgánico en el sitio web; primera página y tabla de posiciones de septiembre 2026 (concurso de acreedores Madrid, 1, 260; cuánto dura un concurso de acreedores, 1ª página, 590; me pueden embargar con concurso de acreedores, 1ª página, 90; gestores concursales, 1, 170); transcripción de ChatGPT con la pregunta publicada y Paseo de la Castellana 179.
+- También aparece un resumen en https://thefunnelbox.com/crm-con-ia/despacho-de-abogados (consulta del mismo día). No se usaron de esa página las etiquetas «Nacional / referencia del sector», más fuertes que la card.
+
+**No usado, aunque está en thefunnelbox.com:** el artículo https://thefunnelbox.com/blog/marketing-para-abogados (fecha visible: 21 jul 2026) publica, para este despacho, «el resultado en doce meses», «el tráfico orgánico se multiplicó por más de quince, con un pico de veinte veces en marzo de 2026» y «la posición media pasó de 28,4 —página 3— a moverse dentro de la primera página de Google», con curva en base 100 desde abril 2025. Eso no coincide con el «+800 % de tráfico orgánico» de la ficha del caso (el +800 % es un múltiplo distinto). En la página 12 se sigue la ficha. El punto queda en `INDICE.md` por si Gonzalo quiere incorporar esas cifras aparte, citando esa URL.
+
+**No usado, de la versión descartada del speaker:** «0 € en anuncios» y «+800 % en 12 meses». El +800 % sí está en la ficha, pero sin el plazo de 12 meses. La card habla de publicidad digital, así que «0 € en anuncios» no coincide con lo publicado.
+
+### Orejas Abogados
+
+- Ficha: https://thefunnelbox.com/blog/caso-de-exito-orejas-abogados (fecha visible: 1 sept 2026)
+- Card en /casos-de-exito (etiqueta: Despacho de abogados · Oviedo, Asturias; chips de 4,9★ 128 reseñas, +45 años desde 1979, pág. 1 Google: revolving y LSO, ChatGPT recomendados por IA; titular «Primera página de Google y ahora también recomendados por ChatGPT»).
+- Datos usados de la ficha (sin redondear): más de 45 años de trayectoria desde 1979; Oviedo y Asturias; Derecho Concursal, Mercantil y Civil; Ley de Segunda Oportunidad y reclamación de tarjetas revolving (esta última, en toda España y sin coste inicial); 4,9 sobre 5 con 128 reseñas en Google; consultoría de negocio, SEO, publicidad (Ads), CRM y web nueva; en los últimos 16 meses, más de 1 millón de impresiones; tras la nueva web, aumentaron las consultas reales, varias derivando en reuniones (sin cifra); ChatGPT, entre las primeras recomendaciones en revolving y primera opción en Ley de Segunda Oportunidad en Asturias.
+
+**Variante no usada como dato principal:** https://thefunnelbox.com/blog/posicionar-tu-empresa-en-chatgpt-geo (fecha visible: 30 ago 2026) dice que ChatGPT lo recomienda como primera opción en revolving «a nivel nacional» y en LSO en Asturias. La ficha del caso y su captura hablan de Asturias. En la página 13 se sigue la ficha.
+
+**No usado, de la versión descartada del speaker:** +340 % de tráfico orgánico en 12 meses; Top 3 en Google en Asturias; más de 12 consultas nuevas por semana. No aparecen en las páginas publicadas. Tampoco se nombra a José Luis Orejas en esas páginas.
+
+### M20 / Pedro Miralles
+
+- Card en https://thefunnelbox.com/casos-de-exito (título: Pedro Miralles; etiqueta: Abogados — Segunda Oportunidad; cita «Se dispararon las ventas, los contactos, y el proyecto está yendo fenomenal»; cuerpo: despacho de Abogados Murcia Segunda Oportunidad de Pedro García; en 6 meses, un alcance que lo llevó a ser la referencia en su ciudad).
+- Artículo: https://thefunnelbox.com/blog/caso-de-exito-m20 (fecha visible: 19 sept 2025). Presenta M20 como despacho en Murcia, fundador Pedro Miralles; auditoría; primera fase de captación; rediseño web, posicionamiento y procesos de cierre; lista de servicios (incluye «Re diseño de página web», así escrito). No publica porcentajes ni un número de consultas.
+- Discrepancia de nombre (Pedro Miralles / Pedro García) se deja publicada como está, sin unificarla.
+
+### Otros casos en /casos-de-exito, no incluidos en el grid de esta web
+
+B&W Foto Video, Taxcom Advisors (despacho contable, Ciudad de México; 756 leads en 2 años, ×17 de tráfico orgánico, +800 % leads por trimestre, pág. 1 para «despacho contable»), Kete · Singular Interiors, Merlos & Caraza, Dr. Merlos Capilar. No son despachos de abogados.
+
+---
+
 ## Lo que deliberadamente no se usa, aunque exista en alguna pieza
 
 - «+100 proyectos», «+80 con IA», «5 empresas fundadas»: brochure LGS y speaker anterior o descartado; retirados del speaker v3; el criterio de Gonzalo pide no poner conteo de empresas ni inventar cifras.
-- Cifras de GCE, Orejas, Taxcom y Pedro Miralles en `speaker-pdf/descartado-con-casos/` y en `fotos/descartado-casos/`.
+- Cifras de la versión descartada del speaker que no coinciden con thefunnelbox.com: +340 %, Top 3, más de 12 consultas por semana, 0 € en anuncios, y el plazo de 12 meses pegado al +800 %. Las miniaturas de `fotos/descartado-casos/` no se publican.
+- Las cifras del artículo de marketing-para-abogados sobre Gestores Concursales (×15, pico de veinte veces, posición media 28,4), hasta que se decida si se citan aparte. Ver la sección de casos, más arriba.
 - Testimonios de Google citados en el speaker y en /equipo, hasta que Gonzalo diga cuáles pueden ir en esta web.
 - «Implementación en 2-4 semanas», «sin permanencia» y el calculador de horas o euros de https://thefunnelbox.com/sistema-despachos-abogados/, como promesa de esta web.
 - Rangos de precio del benchmark, hasta que exista el PDF aprobado.
@@ -107,4 +162,4 @@ En https://thefunnelbox.com/equipo la ficha es más corta (LinkedIn, comunicaci�
 
 ## Voz
 
-Las frases reutilizadas («Que tu despacho no pierda consultas…», el bloque del sistema, la presentación de diez años, las dos fórmulas de Carla, «Puedes probarlo», el problema de la formación jurídica sin herramientas para dirigir el despacho) salen de `/workspace/lgs/despachos-mx/borradores/`, `/workspace/lgs/envio-privadas-19-11/lun-23/` y del speaker v3. El análisis de voz de esa preparación previa está resumido en el encargo; no se adjunta aquí para no mezclar trabajo de box con el repo. El trato de los mails (usted) y el del sitio (tú) se documenta en `INDICE.md`.
+Las frases reutilizadas («Que tu despacho no pierda consultas…», el bloque del sistema, la presentación de diez años, las dos fórmulas de Carla, «Puedes probarlo», el problema de la formación jurídica sin herramientas para dirigir el despacho) salen de `/workspace/lgs/despachos-mx/borradores/`, `/workspace/lgs/envio-privadas-19-11/lun-23/` y del speaker v3. El análisis de voz de esa preparación previa está resumido en el encargo; no se adjunta aquí para no mezclar trabajo de box con el repo. El trato del sitio (tú) quedó cerrado el 23/11/2026 (decisión de Gonzalo, vía Neo). Los mails de Gonzalo siguen en usted; esa diferencia se documenta en `INDICE.md` como decisión ya cerrada, no como pendiente.
