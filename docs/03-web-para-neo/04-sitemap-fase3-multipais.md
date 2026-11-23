@@ -41,10 +41,10 @@ El idioma por defecto. La URL raíz `/` sirve el contenido ES sin exponer la sub
 Cada página con equivalente en otro país debe declarar `hreflang`:
 
 ```html
-<link rel="alternate" hreflang="es-es" href="https://[dominio].com/servicios/marketing-juridico/" />
-<link rel="alternate" hreflang="es-mx" href="https://[dominio].com/mx/marketing-juridico/" />
-<link rel="alternate" hreflang="es-ar" href="https://[dominio].com/ar/marketing-estudio-juridico/" />
-<link rel="alternate" hreflang="x-default" href="https://[dominio].com/servicios/marketing-juridico/" />
+<link rel="alternate" hreflang="es-es" href="https://tfblegal.com/servicios/marketing-juridico/" />
+<link rel="alternate" hreflang="es-mx" href="https://tfblegal.com/mx/marketing-juridico/" />
+<link rel="alternate" hreflang="es-ar" href="https://tfblegal.com/ar/marketing-estudio-juridico/" />
+<link rel="alternate" hreflang="x-default" href="https://tfblegal.com/servicios/marketing-juridico/" />
 ```
 
 Convención: `x-default` apunta a la versión ES (mercado principal).

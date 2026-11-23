@@ -91,11 +91,11 @@ Gonzalo tiene un dossier con fotos de Gonzalo y Carla y otros materiales de marc
 
 ## Qué hacer con el dominio y variables de entorno
 
-- El dominio **no está decidido todavía** (Gonzalo elige tras `../05-brand/00-naming.md`).
-- Usar placeholder `[DOMINIO_PENDIENTE].com` y centralizar en variable de entorno `NEXT_PUBLIC_SITE_URL`.
+- **Dominio comprado**: `tfblegal.com` (decisión de Gonzalo, 23-nov-2026). El nombre de marca sigue abierto — "TFB Legal" es la opción natural pero no cerrada; ver `../05-brand/00-naming.md`.
+- Centralizar la URL en la variable de entorno `NEXT_PUBLIC_SITE_URL`.
 - Variables necesarias a documentar en `.env.example`:
   ```
-  NEXT_PUBLIC_SITE_URL=https://[DOMINIO_PENDIENTE].com
+  NEXT_PUBLIC_SITE_URL=https://tfblegal.com
   NEXT_PUBLIC_GTM_ID=GTM-[PENDIENTE]
   NEXT_PUBLIC_GA4_ID=G-[PENDIENTE]
   HUBSPOT_PORTAL_ID=[PENDIENTE]

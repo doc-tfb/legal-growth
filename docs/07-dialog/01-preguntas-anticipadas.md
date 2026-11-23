@@ -6,7 +6,7 @@ Anticipo 16 dudas frecuentes que Neo puede tener cuando empiece a construir. Rev
 
 ### ¿Qué dominio uso si todavía no está comprado?
 
-**Respuesta**: Gonzalo decide el dominio final tras ver las propuestas de `docs/05-brand/00-naming.md`. Hasta entonces, usar placeholder `[DOMINIO_PENDIENTE].com` en el código y centralizarlo en la variable de entorno `NEXT_PUBLIC_SITE_URL`. Cuando llegue la decisión, se cambia en un solo sitio.
+**Respuesta**: El dominio está decidido — **`tfblegal.com`** (comprado por Gonzalo el 23-nov-2026). Centralizarlo en la variable de entorno `NEXT_PUBLIC_SITE_URL` desde el día 1. El **nombre de marca** sigue abierto; la hipótesis natural es "TFB Legal" pero puede ser otra cosa hospedada bajo ese dominio (ver `docs/05-brand/00-naming.md`).
 
 **Referencia**: `docs/05-brand/00-naming.md` + `docs/03-web-para-neo/01-stack-recomendado.md`.
 
