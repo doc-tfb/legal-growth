@@ -1,8 +1,8 @@
 # Nosotros
 
 - **Path:** `/nosotros/`
-- **Meta title:** Nosotros · [COMPLETAR: nombre de marca]
-- **Meta description:** Gonzalo Castro y Carla Fresch Pons. Un consultor de crecimiento y una abogada que ejerció más de una década en el Poder Judicial de Argentina.
+- **Meta title:** Nosotros · TFB Legal
+- **Meta description:** TFB Legal es una colaboración directa entre los fundadores de The Funnel Box y de Brandly: Gonzalo Castro y Carla Fresch Pons.
 
 > **Nota para Iris:** Esta es la página hub. Las bios largas van en `/nosotros/gonzalo-castro/` y `/nosotros/carla-fresch-pons/`. No agregues un «equipo» de stock ni los avatares de Iris o Atlas (son agentes internos de The Funnel Box, no se presentan como fundadores de esta web).
 
@@ -14,7 +14,9 @@
 
 **Cuerpo:**
 
-El trabajo con despachos lo llevan Gonzalo Castro y Carla Fresch Pons. Él aporta los sistemas, la captación de clientes y la IA. Ella aporta la práctica jurídica y la marca personal del abogado.
+TFB Legal es una colaboración directa entre los fundadores de The Funnel Box y de Brandly: Gonzalo Castro y Carla Fresch Pons.
+
+Él aporta los sistemas, la captación de clientes y la IA. Ella aporta la práctica jurídica y la marca personal del abogado.
 
 **Foto sugerida:** `fotos/gonzalo-castro-retrato.jpg` y `fotos/carla-fresch-pons-retrato.jpg`.
 
@@ -30,9 +32,9 @@ El trabajo con despachos lo llevan Gonzalo Castro y Carla Fresch Pons. Él aport
 
 The Funnel Box, fundada por Gonzalo Castro, trabaja desde hace más de diez años con despachos de abogados de Europa y América Latina en captación de clientes, marketing y gestión.
 
-A ese trabajo se suma Carla Fresch Pons, abogada por la Universidad de Buenos Aires, que ejerció más de una década en el Poder Judicial de Argentina y hoy dirige Brandly OÜ.
+A ese trabajo se suma Carla Fresch Pons, fundadora de Brandly OÜ, abogada por la Universidad de Buenos Aires, que ejerció más de una década en el Poder Judicial de Argentina.
 
-Juntos diseñaron Legal Growth System, el programa de Dirección de la Práctica Jurídica, y acompañan también la implementación del sistema en el despacho.
+TFB Legal es la colaboración directa de esos dos fundadores. Juntos diseñaron Legal Growth System, el programa de Dirección de la Práctica Jurídica, y acompañan también la implementación del sistema en el despacho.
 
 **Foto sugerida:** `fotos/brochure-speaker-v3-equipo-carla.jpg` (diapositiva de equipo del speaker v3, como referencia de composición; no es obligatorio usarla en pantalla).
 
@@ -45,14 +47,14 @@ Juntos diseñaron Legal Growth System, el programa de Dirección de la Práctica
 **Card Gonzalo Castro**
 
 - Foto: `fotos/gonzalo-castro-retrato.jpg`
-- Rol: Fundador de The Funnel Box. Cocreador de Legal Growth System.
+- Rol: Fundador de The Funnel Box. TFB Legal, en colaboración directa con la fundadora de Brandly.
 - Una línea: Sistemas, captación de clientes e IA aplicada al despacho.
 - Enlace: `/nosotros/gonzalo-castro/`
 
 **Card Carla Fresch Pons**
 
 - Foto: `fotos/carla-fresch-pons-retrato.jpg`
-- Rol: Fundadora de Brandly OÜ. Cocreadora de Legal Growth System.
+- Rol: Fundadora de Brandly OÜ. TFB Legal, en colaboración directa con el fundador de The Funnel Box.
 - Una línea: Práctica jurídica y marca personal del abogado.
 - Enlace: `/nosotros/carla-fresch-pons/`
 

@@ -1,10 +1,10 @@
 # Home
 
 - **Path:** `/`
-- **Meta title:** [COMPLETAR: nombre de marca] · Consultoría de crecimiento para despachos de abogados
+- **Meta title:** TFB Legal · Consultoría de crecimiento para despachos de abogados
 - **Meta description:** Desde hace más de diez años trabajamos con despachos de Europa y América Latina. Puedes ver el sistema en una demo y agendar una consulta de 30 minutos.
 
-> **Nota para Iris:** El nombre de marca no está decidido (`docs/05-brand/00-naming.md`). Deja el placeholder visible en el `<title>` hasta que Gonzalo y Carla lo cierren. No uses «Legal Growth» como marca. El trato de esta página es «tú», como fija el repo. Los mails de Gonzalo van en «usted»: es una decisión a validar, no un error de esta pieza. No uses las fotos de `fotos/demo/assets` (no existen en este paquete) ni presentes HB Abogados como un cliente real.
+> **Nota para Iris:** La marca es **TFB Legal** (decisión de Gonzalo, 23/11/2026, vía Neo). No uses «Legal Growth» ni «Práxis Legal» como marca. El dominio sigue en [COMPLETAR]. El trato de esta página es «tú»; esa decisión quedó cerrada el mismo día. No uses las fotos de `fotos/demo/assets` (no existen en este paquete) ni presentes HB Abogados como un cliente real.
 
 ---
 
@@ -100,33 +100,36 @@ Primero entendemos el despacho. Después proponemos un plan. Si lo podemos ejecu
 
 ## 5. Caso destacado
 
-**H2:** [COMPLETAR: título del caso, con OK de Gonzalo]
+**H2:** Gestores Concursales
 
 **Cuerpo:**
 
-[COMPLETAR: caso y métricas con OK de Gonzalo]
+El despacho de Leticia Montalvo y Mónica Usón, especializadas en derecho concursal. Según thefunnelbox.com/casos-de-exito, pasó de depender de recomendaciones a tener un sistema estable de captación y crecimiento continuo. La ficha del caso publica +800 % de tráfico orgánico y primera página de Google en búsquedas de Madrid (septiembre 2026).
 
-**Cita del cliente:** [COMPLETAR]
+**Cita publicada:** «Cada vez tenemos más clientes de los que queremos»
 
-**CTA:** Ver caso completo → `/casos/` o, cuando exista, `/casos/gce-gestores-concursales/` o `/casos/orj-orejas-abogados/`
+**CTA:** Ver caso completo → `/casos/gce-gestores-concursales/`
 
-**Foto sugerida:** [COMPLETAR: foto o logo del cliente, con permiso]. No uses `fotos/descartado-casos/`.
+**Foto sugerida:** [COMPLETAR: logo o foto con permiso]. No uses `fotos/descartado-casos/`.
 
-> **Nota para Iris:** Gestores Concursales (GCE) y Orejas Abogados aparecen en el sitemap, pero no están en el brochure vigente (speaker v3). Hay cifras solo en `speaker-pdf/descartado-con-casos/`, una versión que se retiró. Hasta el OK de Gonzalo, deja este bloque con el diseño y los placeholders, o no lo publiques vacío con datos inventados. Ver `INDICE.md`.
+> **Nota para Iris:** Caso autorizado el 23/11/2026 (decisión de Gonzalo, vía Neo): usar lo publicado en thefunnelbox.com. Detalle y advertencias sobre cifras en `12-casos-gce-gestores-concursales.md` y `FUENTES.md`. Hay también fichas de Orejas Abogados y M20 en `/casos/`.
 
 ---
 
 ## 6. Testimonios cortos
 
-**H2:** [COMPLETAR o, si no hay testimonios validados, omitir la sección]
+**H2:** Citas publicadas
 
 **Cuerpo:**
 
-[COMPLETAR: testimonios con nombre, cargo, despacho y permiso. No rellenar con textos de stock.]
+Estas dos citas están publicadas en thefunnelbox.com/casos-de-exito. No hay, en esas cards, un cargo ni una fecha. No se añaden reseñas de /equipo que no sean de estos despachos.
 
-**Foto sugerida:** solo retrato real del firmante, con permiso.
+- Gestores Concursales: «Cada vez tenemos más clientes de los que queremos»
+- Pedro Miralles: «Se dispararon las ventas, los contactos, y el proyecto está yendo fenomenal»
 
-> **Nota para Iris:** Si no hay testimonios aprobados el día del lanzamiento, oculta esta sección. No uses reseñas genéricas. En thefunnelbox.com/equipo y en el speaker v3 hay reseñas públicas de Google; no las copies aquí hasta que Gonzalo diga cuáles pueden ir en esta web (varias no son de despachos).
+**Foto sugerida:** ninguna, salvo logo o retrato con permiso. No uses fotos de stock ni `fotos/descartado-casos/`.
+
+> **Nota para Iris:** No inventes un firmante para la cita de Gestores Concursales (la card no nombra a Leticia o a Mónica como autora de esa frase). No copies reseñas genéricas de thefunnelbox.com/equipo.
 
 ---
 
@@ -153,6 +156,8 @@ Rangos de presupuesto de marketing para despachos en España, para tener una ref
 **H2:** Quiénes lo llevan
 
 **Cuerpo:**
+
+TFB Legal es una colaboración directa entre los fundadores de The Funnel Box y de Brandly: Gonzalo Castro y Carla Fresch Pons.
 
 Gonzalo Castro es fundador de The Funnel Box. Desde hace más de diez años trabaja con despachos de abogados de Europa y América Latina en captación de clientes, marketing y gestión.
 
@@ -209,13 +214,14 @@ Bloque global del sitio, no solo de la home.
 
 **Cuerpo / elementos:**
 
-- Wordmark: `fotos/logos/tfb-wordmark.png` o el logo de la nueva marca cuando exista ([COMPLETAR]).
+- Wordmark: el de TFB Legal cuando exista ([COMPLETAR: wordmark de TFB Legal]). Mientras tanto, `fotos/logos/tfb-wordmark.png` o el isotipo, con el nombre TFB Legal a la vista.
 - Navegación: Servicios, Casos, Blog, Contacto.
 - Legales: `/politicas/aviso-legal/`, `/politicas/politica-de-privacidad/`, `/politicas/politica-de-cookies/`.
 - LinkedIn de Gonzalo: [https://www.linkedin.com/in/gonzalo-ezequiel-castro](https://www.linkedin.com/in/gonzalo-ezequiel-castro)
 - LinkedIn de Carla: [https://www.linkedin.com/in/carlafreschpons](https://www.linkedin.com/in/carlafreschpons)
 - Correo público: gonzalo@thefunnelbox.com
-- Texto discreto: «Un proyecto de [COMPLETAR: nombre de marca]. Operación ejecutiva por The Funnel Box.»
-- Copyright: © 2026 [COMPLETAR: nombre de marca].
+- Texto discreto: «TFB Legal es una colaboración directa entre los fundadores de The Funnel Box y de Brandly.»
+- Dominio: [COMPLETAR].
+- Copyright: © 2026 TFB Legal.
 
 > **Nota para Iris:** No uses en el pie la fórmula de thefunnelbox.com «Partner estratégico para empresas que quieren crecer…». Esa frase está en la lista de lo que no se dice en `docs/05-brand/01-tono-de-voz.md`.

@@ -2,7 +2,7 @@
 
 - **Path:** `/nosotros/carla-fresch-pons/`
 - **Meta title:** Carla Fresch Pons · Abogada y consultora de marca personal
-- **Meta description:** Abogada por la UBA. Ejerció más de una década en el Poder Judicial de Argentina. LinkedIn Top Voice y fundadora de Brandly OÜ. Cocreadora de Legal Growth System.
+- **Meta description:** Fundadora de Brandly OÜ. TFB Legal es su colaboración directa con Gonzalo Castro, fundador de The Funnel Box. Abogada por la UBA y LinkedIn Top Voice.
 
 > **Nota para Iris:** Bio tomada del speaker v3 (diapositiva del equipo) y de las frases que Gonzalo usa en los mails. No uses el voseo de `docs/04-copy/03-bio-carla.md` («Agendá»). No tomes como fuente única la ficha de thefunnelbox.com/equipo, que es más corta y no menciona UBA ni el Poder Judicial.
 
@@ -12,7 +12,7 @@
 
 **H1:** Carla Fresch Pons
 
-**Subtítulo:** Cocreadora de Legal Growth System. Fundadora de Brandly OÜ.
+**Subtítulo:** Fundadora de Brandly OÜ. TFB Legal, en colaboración directa con Gonzalo Castro, fundador de The Funnel Box.
 
 **Foto sugerida:** `fotos/carla-fresch-pons-retrato.jpg`
 
@@ -30,7 +30,7 @@ Carla Fresch Pons es abogada por la Universidad de Buenos Aires. Ejerció más d
 
 Hoy dirige Brandly OÜ, es LinkedIn Top Voice y trabaja la marca personal, clave para dar autoridad al abogado.
 
-Es cocreadora de Legal Growth System, junto con Gonzalo Castro.
+TFB Legal es una colaboración directa entre los fundadores de The Funnel Box y de Brandly. En ese trabajo está con Gonzalo Castro. Juntos crearon Legal Growth System.
 
 **H2:** Qué aporta al trabajo con despachos
 
@@ -81,7 +81,7 @@ LinkedIn: [https://www.linkedin.com/in/carlafreschpons](https://www.linkedin.com
 - Universidad de Buenos Aires: título de abogada.
 - Más de una década en el Poder Judicial de Argentina, en la investigación de delitos informáticos.
 - Fundadora de Brandly OÜ. LinkedIn Top Voice. Trabajo actual en marca personal.
-- Cocreadora de Legal Growth System.
+- Fundadora de Brandly OÜ. Colaboración directa en TFB Legal con el fundador de The Funnel Box. Cocreadora de Legal Growth System.
 
 [COMPLETAR: fechas exactas de cada etapa, si Gonzalo o Carla las quieren publicadas. El speaker v3 no trae años de inicio y fin.]
 

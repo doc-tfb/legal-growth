@@ -2,7 +2,7 @@
 
 - **Path:** `/nosotros/gonzalo-castro/`
 - **Meta title:** Gonzalo Castro · Consultor de crecimiento para despachos
-- **Meta description:** Fundador de The Funnel Box. Desde hace más de diez años trabaja con despachos de abogados de Europa y América Latina en captación, marketing y gestión.
+- **Meta description:** Fundador de The Funnel Box. TFB Legal es su colaboración directa con Carla Fresch Pons, fundadora de Brandly. Más de diez años con despachos de Europa y América Latina.
 
 > **Nota para Iris:** Esta bio sigue el speaker v3 y las frases que Gonzalo usa en sus mails. No uses el copy de Iris en `docs/04-copy/02-bio-gonzalo.md` (tiene voseo y material no validado). No agregues +100 proyectos, +80 con IA ni «5 empresas fundadas».
 
@@ -12,7 +12,7 @@
 
 **H1:** Gonzalo Castro
 
-**Subtítulo:** Fundador de The Funnel Box. Cocreador de Legal Growth System.
+**Subtítulo:** Fundador de The Funnel Box. TFB Legal, en colaboración directa con Carla Fresch Pons, fundadora de Brandly.
 
 **Foto sugerida:** `fotos/gonzalo-castro-retrato.jpg` (recorte: fuera el logo del portátil). Alternativa de apoyo: `fotos/gonzalo-castro-taza-loft153.jpg`.
 
@@ -28,9 +28,11 @@
 
 Soy Gonzalo Castro, fundador de The Funnel Box. Desde hace más de diez años trabajo con despachos de abogados de Europa y América Latina en captación de clientes, marketing y gestión.
 
+TFB Legal es una colaboración directa entre los fundadores de The Funnel Box y de Brandly. En ese trabajo estoy con Carla Fresch Pons, fundadora de Brandly.
+
 The Funnel Box es OpenAI Select Partner. El perfil ante Forbes Business Council está preaprobado.
 
-En el trabajo con despachos me ocupo de los sistemas, la captación de clientes y la IA aplicada al día a día. Legal Growth System lo creamos junto con Carla Fresch Pons, y lo desarrollamos con el equipo de The Funnel Box.
+En el trabajo con despachos me ocupo de los sistemas, la captación de clientes y la IA aplicada al día a día. Legal Growth System lo creamos junto con Carla, y lo desarrollamos con el equipo de The Funnel Box.
 
 **H2:** De dónde viene este trabajo
 
@@ -60,13 +62,11 @@ La explicación del sistema está en [https://thefunnelbox.com/sistema-despachos
 
 **Cuerpo:**
 
-[COMPLETAR: caso y métricas con OK de Gonzalo]
-
-El sitemap prevé Gestores Concursales y Orejas Abogados. Esos casos no están en el brochure vigente. Hasta que Gonzalo autorice el texto y las cifras, esta sección queda como estructura, sin datos.
+En thefunnelbox.com están publicados, entre otros, los casos de Gestores Concursales, Orejas Abogados y M20 (Pedro Miralles). Los datos y las citas de esta web salen de esas páginas.
 
 **CTA:** Ver casos → `/casos/`
 
-> **Nota para Iris:** No tomes las cifras de `fotos/descartado-casos/` ni del HTML descartado del speaker. Ver `INDICE.md` y `HECHOS` en `FUENTES.md`.
+> **Nota para Iris:** No tomes cifras de `fotos/descartado-casos/` ni del speaker descartado si no coinciden con thefunnelbox.com. Ver `FUENTES.md`.
 
 ---
 
