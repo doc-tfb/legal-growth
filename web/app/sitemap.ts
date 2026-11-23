@@ -13,8 +13,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/servicios/formacion-para-despachos/", priority: 0.8, changeFrequency: "monthly" },
     { path: "/servicios/speaker-conferencias/", priority: 0.7, changeFrequency: "monthly" },
     { path: "/casos/", priority: 0.9, changeFrequency: "monthly" },
-    { path: "/casos/gce-gestores-concursales/", priority: 0.8, changeFrequency: "monthly" },
-    { path: "/casos/orj-orejas-abogados/", priority: 0.8, changeFrequency: "monthly" },
     { path: "/nosotros/", priority: 0.8, changeFrequency: "monthly" },
     { path: "/nosotros/gonzalo-castro/", priority: 0.8, changeFrequency: "monthly" },
     { path: "/nosotros/carla-fresch-pons/", priority: 0.8, changeFrequency: "monthly" },

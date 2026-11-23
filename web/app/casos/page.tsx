@@ -69,8 +69,9 @@ export default function CasosHub() {
         <div className="band-inner">
           <p className="prose" style={{ maxWidth: "62ch", marginBottom: "clamp(24px, 3vw, 36px)" }}>
             Las referencias que siguen son proyectos de <strong>The Funnel Box</strong> en el
-            sector legal. El equipo que hoy forma TFB Legal lleva estos proyectos activos.
-            Son referencias de experiencia, no testimonios de los despachos citados.
+            sector legal — el operador detrás de TFB Legal. Son referencias de experiencia, no
+            testimonios de los despachos citados. Cada ficha completa vive en el sitio de The
+            Funnel Box.
           </p>
           <table className="casos-table">
             <thead>
@@ -93,7 +94,14 @@ export default function CasosHub() {
                 <td className="hide-mobile"><span className="caso-chip">Web + SEO + CRM</span></td>
                 <td className="hide-mobile"><span className="caso-chip">Concursal · ES</span></td>
                 <td>
-                  <Link href="/casos/gce-gestores-concursales/" className="caso-link">Leer caso</Link>
+                  <a
+                    href="https://thefunnelbox.com/"
+                    className="caso-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ver en The Funnel Box ↗
+                  </a>
                 </td>
               </tr>
               <tr>
@@ -107,7 +115,14 @@ export default function CasosHub() {
                 <td className="hide-mobile"><span className="caso-chip">SEO + Ads</span></td>
                 <td className="hide-mobile"><span className="caso-chip">Civil · Oviedo</span></td>
                 <td>
-                  <Link href="/casos/orj-orejas-abogados/" className="caso-link">Leer caso</Link>
+                  <a
+                    href="https://thefunnelbox.com/"
+                    className="caso-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ver en The Funnel Box ↗
+                  </a>
                 </td>
               </tr>
               <tr>
