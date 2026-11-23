@@ -1,4 +1,7 @@
-# Legal Growth (nombre provisional)
+# Legal Growth — repo de planificación de la marca
+
+> **Dominio comprado**: [`tfblegal.com`](https://tfblegal.com) (Gonzalo, 23-nov-2026).
+> **Nombre de marca**: abierto. Hipótesis natural "TFB Legal" bajo el dominio, pero puede alojarse otra marca ahí. Ver [`docs/05-brand/00-naming.md`](./docs/05-brand/00-naming.md).
 
 Marca personal doble co-fundada por **Gonzalo Castro** (director de The Funnel Box) y **Carla Fresch Pons** (ex-abogada con más de 10 años en el Poder Judicial de Argentina). Consultor integral de crecimiento para despachos medianos de 5–30 abogados en España, México y Argentina. Cuatro ejes: marketing digital, consultoría estratégica, formación y speaker/ponencias. El hueco de mercado existe porque ningún actor cubre los cuatro bajo una misma marca personal con ejecución real: Eugenia Navarro cubre consultoría y formación pero no ejecuta marketing; las agencias ejecutan sin diagnóstico estratégico. Esta marca une las dos capas y añade a Carla como traductora cultural: conoce cómo piensan los abogados desde adentro. The Funnel Box queda como brazo ejecutor operativo detrás.
 

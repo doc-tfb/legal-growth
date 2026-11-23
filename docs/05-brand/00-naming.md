@@ -1,6 +1,9 @@
-# Naming · 5 propuestas de nombre
+# Naming · dominio decidido, marca aún abierta
 
-Nombre provisional del repo: `legal-growth`. **No es el nombre final.** Esta sección propone 5 candidatos para decisión de Gonzalo y Carla.
+> **Dominio comprado**: `tfblegal.com` (Gonzalo, 23-nov-2026). Hereda el ADN de The Funnel Box y funciona en los tres mercados sin fricción.
+> **Nombre de marca**: aún no cerrado. La opción natural bajo ese dominio es **"TFB Legal"** (sub-marca del paraguas TFB, modelo consultora senior con ejecución operativa atrás). La decisión final la toman Gonzalo y Carla y puede sostener también una marca personal doble alojada bajo el mismo dominio.
+
+Nombre provisional del repo: `legal-growth`. **No es el nombre final.** Esta sección mantiene las 5 propuestas originales para contexto histórico — la decisión ya avanzó pero el nombre comercial queda abierto.
 
 Criterios de decisión:
 - Específico del sector (no sirve "funnel" / "growth" genérico).
@@ -154,9 +157,9 @@ Descartamos "Legal Growth" literal (nombre provisional del repo): suena genéric
 
 ## Checklist de decisión
 
-- [ ] Nombre elegido: `[COMPLETAR]`.
-- [ ] Dominio principal comprado: `[COMPLETAR].com`.
-- [ ] Dominios defensivos comprados: `[COMPLETAR]`.
-- [ ] Handles reservados: `[COMPLETAR]`.
-- [ ] Búsqueda marca registrada completada.
+- [x] **Dominio principal comprado: `tfblegal.com`** (Gonzalo, 23-nov-2026).
+- [ ] Nombre comercial final: `[ABIERTO — hipótesis "TFB Legal"]`.
+- [ ] Dominios defensivos: `[REVISAR — .es requiere DNI/NIE; .com.mx libre; .com.ar bloqueado por NIC.AR desde registrador externo]`.
+- [ ] Handles reservados en LinkedIn / IG / X / YouTube: `[COMPLETAR]`.
+- [ ] Búsqueda marca registrada en OEPM (ES), IMPI (MX), INPI (AR) para "TFB Legal": `[COMPLETAR]`.
 - [ ] Framework metodológico tiene nombre propio relacionado: `[COMPLETAR]`.

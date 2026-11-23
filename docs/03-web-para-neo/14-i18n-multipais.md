@@ -8,7 +8,7 @@ Cuando llegue Fase 3 (mes 13+), este documento se convierte en la guía de ejecu
 
 ## Decisión de arquitectura: subcarpetas, no subdominios
 
-Elegimos `/es/`, `/mx/`, `/ar/` sobre el mismo dominio. **No** `mx.[dominio].com` ni `ar.[dominio].com`.
+Elegimos `/es/`, `/mx/`, `/ar/` sobre el mismo dominio. **No** `mx.tfblegal.com` ni `ar.tfblegal.com`.
 
 **Por qué**:
 - Preserva autoridad del dominio (subdominios son vistos por Google como semi-independientes).
@@ -41,10 +41,10 @@ Elegimos `/es/`, `/mx/`, `/ar/` sobre el mismo dominio. **No** `mx.[dominio].com
 Declarar en cada página con equivalentes en otros países:
 
 ```html
-<link rel="alternate" hreflang="es-es" href="https://[dominio].com/servicios/marketing-juridico/" />
-<link rel="alternate" hreflang="es-mx" href="https://[dominio].com/mx/marketing-juridico/" />
-<link rel="alternate" hreflang="es-ar" href="https://[dominio].com/ar/marketing-estudio-juridico/" />
-<link rel="alternate" hreflang="x-default" href="https://[dominio].com/servicios/marketing-juridico/" />
+<link rel="alternate" hreflang="es-es" href="https://tfblegal.com/servicios/marketing-juridico/" />
+<link rel="alternate" hreflang="es-mx" href="https://tfblegal.com/mx/marketing-juridico/" />
+<link rel="alternate" hreflang="es-ar" href="https://tfblegal.com/ar/marketing-estudio-juridico/" />
+<link rel="alternate" hreflang="x-default" href="https://tfblegal.com/servicios/marketing-juridico/" />
 ```
 
 Convención: `x-default` apunta a la versión ES (mercado principal).
