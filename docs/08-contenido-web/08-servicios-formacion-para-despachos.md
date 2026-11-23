@@ -74,7 +74,7 @@ Legal Growth System lo creamos junto con Carla Fresch Pons, abogada especialista
 
 **Cuerpo:**
 
-[COMPLETAR: caso y métricas con OK de Gonzalo]
+Los casos publicados en thefunnelbox.com documentan el trabajo con despachos (captación, web, posicionamiento, CRM), no un grupo del programa Legal Growth System. No hay, en esas páginas, un caso del programa de 13 semanas. Puedes ver los casos de implementación en `/casos/`.
 
 ---
 

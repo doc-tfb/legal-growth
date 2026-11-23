@@ -1,7 +1,7 @@
 # Marketing jurídico
 
 - **Path:** `/servicios/marketing-juridico/`
-- **Meta title:** Marketing jurídico para despachos · [COMPLETAR: nombre de marca]
+- **Meta title:** Marketing jurídico para despachos · TFB Legal
 - **Meta description:** SEO, Google Ads, web, LinkedIn y email para despachos de abogados, ejecutados por el equipo. Sin cifras inventadas y con una consulta previa de 30 minutos.
 
 > **Nota para Iris:** No publiques resultados porcentuales ni plazos de SEO («el mes 4 al 6», etc.) hasta que Gonzalo los confirme para esta web. El manual de tono permite hablar con honestidad de plazos reales; aquí aún no hay una cifra validada en el brochure vigente.
@@ -72,7 +72,7 @@ El detalle del proceso está en la página de metodología.
 
 **Cuerpo:**
 
-[COMPLETAR: caso y métricas con OK de Gonzalo]
+El trabajo de marketing con despachos está publicado, entre otros, en los casos de Gestores Concursales, Orejas Abogados y M20. Las cifras están en cada ficha, tomadas de thefunnelbox.com.
 
 **CTA:** Ver casos → `/casos/`
 

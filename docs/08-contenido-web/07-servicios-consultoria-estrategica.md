@@ -67,7 +67,7 @@ El proceso completo está descrito en la metodología.
 
 **Cuerpo:**
 
-[COMPLETAR: caso y métricas con OK de Gonzalo]
+En Orejas Abogados la ficha publicada describe una consultoría de negocio integral y continua, junto con SEO, publicidad, CRM y una web nueva. Gestores Concursales y M20 también arrancan, en las páginas públicas, con un trabajo de estrategia o auditoría. El detalle está en `/casos/`.
 
 **CTA:** Ver casos → `/casos/`
 

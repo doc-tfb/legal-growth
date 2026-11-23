@@ -57,7 +57,7 @@ El trabajo se implementa en el despacho. No entregamos un curso teórico ni un i
 
 **Cuerpo:**
 
-[COMPLETAR: caso y métricas con OK de Gonzalo]
+Puedes ver tres casos de despachos publicados en thefunnelbox.com: Gestores Concursales, Orejas Abogados y M20. El detalle y las cifras están en cada ficha.
 
 **CTA:** Ver casos → `/casos/`
 
