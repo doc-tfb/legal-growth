@@ -608,7 +608,7 @@ Retrato de Juliana Perez, Team Lead de The Funnel Box, publicado en /equipo.
 - **Origen documentado:** Descarga 23/11/2026 (Europe/Skopje)
 - **URL:** https://customer-assets.emergentagent.com/job_premium-consulting-10/artifacts/7t82qiir_2.jpg (https://thefunnelbox.com/equipo)
 - **Página / sección sugerida:** Opcional, solo si se muestra un equipo TFB más amplio (no es fundadora de esta web).
-- **Restricciones:** Equipo TFB, confirmar uso. Pública en thefunnelbox.com/equipo. No presentarla como socia de la nueva marca sin OK.
+- **Restricciones:** Equipo TFB, confirmar uso. Pública en thefunnelbox.com/equipo. No presentarla como socia de TFB Legal sin OK.
 
 ## `logos/banderas-experiencia.png`
 

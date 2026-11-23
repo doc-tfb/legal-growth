@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Revisión de copy en docs/08-contenido-web/: voseo, firmas-como-despacho, cohorte, cifras retiradas y frases prohibidas."""
+"""Revisión de copy en docs/08-contenido-web/: voseo, firmas-como-despacho, cohorte, cifras retiradas, «Práxis»/«Praxis» y frases prohibidas. El +800 % de Gestores Concursales ya no se marca como cifra retirada: está en la ficha publicada de thefunnelbox.com."""
 from __future__ import annotations
 
 import re
@@ -42,7 +42,7 @@ FORBIDDEN = [
     (re.compile(r"\+100\s+proyectos", re.I), "cifra retirada: +100 proyectos"),
     (re.compile(r"\+80\s+con IA", re.I), "cifra retirada: +80 con IA"),
     (re.compile(r"\+340\s*%", re.I), "cifra de versión descartada (+340 %)"),
-    (re.compile(r"\+800\s*%", re.I), "cifra de versión descartada (+800 %)"),
+    (re.compile(r"pr[áa]xis", re.I), "nombre provisorio «Práxis»/«Praxis» (la marca es TFB Legal)"),
 ]
 
 # Draft-only mentions of discarded figures in notes are tagged separately
@@ -108,7 +108,7 @@ def main() -> int:
                 meta_hits += 1
             report.append(f"- `{rel}:{i}` [{zone}] {kind}: {line[:200]}")
     print(f"Archivos revisados: {len(files)}")
-    print(f"Hallazgos en copy público (páginas 01-16, fuera de blockquotes): {copy_hits}")
+    print(f"Hallazgos en copy público (páginas 01-17, fuera de blockquotes): {copy_hits}")
     print(f"Hallazgos en notas para Iris (blockquote): {note_hits}")
     print(f"Hallazgos en documentos meta (INDICE, FUENTES, LEEME-IRIS, INDICE-FOTOS): {meta_hits}")
     print()
