@@ -4,17 +4,39 @@ import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 import Breadcrumb from "../../components/Breadcrumb";
 import Interactions from "../../components/Interactions";
+import { OrganizationSchema, BreadcrumbSchema } from "../../components/Schema";
 
 export const metadata: Metadata = {
   title: "Aviso legal · TFB Legal",
   description:
-    "Aviso legal de tfblegal.com: titular, objeto, propiedad intelectual, exención de responsabilidad, enlaces externos, jurisdicción y legislación aplicable.",
+    "Aviso legal de tfblegal.com. Titular: The Funnel Box OÜ (Estonia). Objeto, propiedad intelectual, exención de responsabilidad, enlaces, jurisdicción.",
   alternates: { canonical: "/politicas/aviso-legal/" },
+  openGraph: {
+    title: "Aviso legal · TFB Legal",
+    description:
+      "Aviso legal de tfblegal.com. Titular, propiedad intelectual y condiciones de uso del sitio.",
+    url: "/politicas/aviso-legal/",
+    type: "website",
+    locale: "es_ES",
+    siteName: "TFB Legal",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Aviso legal · TFB Legal",
+    description: "Aviso legal de tfblegal.com. The Funnel Box OÜ.",
+  },
 };
 
 export default function AvisoLegalPage() {
   return (
     <>
+      <OrganizationSchema />
+      <BreadcrumbSchema
+        items={[
+          { name: "Inicio", url: "/" },
+          { name: "Aviso legal", url: "/politicas/aviso-legal/" },
+        ]}
+      />
       <SiteHeader />
 
       <div className="band-inner">
@@ -44,11 +66,17 @@ export default function AvisoLegalPage() {
               1. Titular del sitio
             </h2>
             <p>
-              <strong>Razón social:</strong> [COMPLETAR].<br />
-              <strong>NIF / CIF:</strong> [COMPLETAR].<br />
-              <strong>Domicilio:</strong> [COMPLETAR].<br />
+              <strong>Razón social:</strong> The Funnel Box OÜ.<br />
+              <strong>Marca comercial:</strong> TFB Legal.<br />
+              <strong>Forma jurídica:</strong> Osaühing (sociedad limitada estonia).<br />
+              <strong>País de constitución:</strong> Estonia.<br />
+              <strong>Número de registro (Estonia · Äriregister):</strong>{" "}
+              [COMPLETAR · registry code TFB OÜ].<br />
+              <strong>VAT EU (si aplica):</strong> [COMPLETAR · VAT EU de TFB OÜ si está registrado].<br />
+              <strong>Domicilio social:</strong> [COMPLETAR · dirección completa de TFB OÜ en Estonia].<br />
               <strong>Email de contacto:</strong>{" "}
               <a href="mailto:gonzalo@thefunnelbox.com">gonzalo@thefunnelbox.com</a>.<br />
+              <strong>Teléfono:</strong> [COMPLETAR · teléfono de contacto empresarial].<br />
               <strong>Dominio:</strong> tfblegal.com.
             </p>
 
@@ -58,8 +86,8 @@ export default function AvisoLegalPage() {
             <p>
               El presente sitio web tiene por objeto la presentación de los servicios de
               consultoría, marketing jurídico, formación y ponencias para despachos de abogados
-              ofrecidos por el titular. El acceso y navegación del sitio implica la aceptación de
-              las presentes condiciones.
+              ofrecidos por The Funnel Box OÜ bajo la marca comercial <strong>TFB Legal</strong>.
+              El acceso y navegación del sitio implica la aceptación de las presentes condiciones.
             </p>
 
             <h2 style={{ fontFamily: "var(--font-serif)", fontWeight: 500, fontSize: "1.3rem", margin: "32px 0 14px" }}>
@@ -67,8 +95,9 @@ export default function AvisoLegalPage() {
             </h2>
             <p>
               Todos los contenidos del sitio (textos, imágenes, logotipos, diseño, código fuente,
-              bases de datos) son titularidad del titular o están bajo licencia. Su uso sin
-              autorización expresa queda prohibido fuera de los supuestos legalmente previstos.
+              bases de datos) son titularidad de The Funnel Box OÜ o están bajo licencia. Su uso
+              sin autorización expresa queda prohibido fuera de los supuestos legalmente
+              previstos.
             </p>
 
             <h2 style={{ fontFamily: "var(--font-serif)", fontWeight: 500, fontSize: "1.3rem", margin: "32px 0 14px" }}>
@@ -77,35 +106,38 @@ export default function AvisoLegalPage() {
             <p>
               Los contenidos publicados tienen carácter informativo general y no constituyen
               asesoramiento jurídico ni consultivo personalizado. La aplicación de cualquier
-              recomendación requiere análisis específico del caso. El titular no se responsabiliza
-              por decisiones adoptadas sin contacto profesional directo.
+              recomendación requiere análisis específico del caso. The Funnel Box OÜ no se
+              responsabiliza por decisiones adoptadas sin contacto profesional directo.
             </p>
 
             <h2 style={{ fontFamily: "var(--font-serif)", fontWeight: 500, fontSize: "1.3rem", margin: "32px 0 14px" }}>
               5. Enlaces a terceros
             </h2>
             <p>
-              El sitio puede incluir enlaces a sitios de terceros. El titular no se responsabiliza
-              del contenido, políticas o prácticas de dichos sitios, cuya navegación es bajo
-              responsabilidad del usuario.
+              El sitio puede incluir enlaces a sitios de terceros. The Funnel Box OÜ no se
+              responsabiliza del contenido, políticas o prácticas de dichos sitios, cuya
+              navegación es bajo responsabilidad del usuario.
             </p>
 
             <h2 style={{ fontFamily: "var(--font-serif)", fontWeight: 500, fontSize: "1.3rem", margin: "32px 0 14px" }}>
               6. Modificaciones
             </h2>
             <p>
-              El titular se reserva el derecho a modificar el contenido del sitio y las presentes
-              condiciones en cualquier momento, publicando la versión actualizada en esta misma
-              página.
+              The Funnel Box OÜ se reserva el derecho a modificar el contenido del sitio y las
+              presentes condiciones en cualquier momento, publicando la versión actualizada en
+              esta misma página.
             </p>
 
             <h2 style={{ fontFamily: "var(--font-serif)", fontWeight: 500, fontSize: "1.3rem", margin: "32px 0 14px" }}>
               7. Legislación y jurisdicción
             </h2>
             <p>
-              Las presentes condiciones se rigen por la legislación española. Para la resolución de
-              cualquier controversia, las partes se someten a los juzgados y tribunales del
-              domicilio del titular, salvo que la normativa aplicable establezca otra competencia.
+              Las presentes condiciones se rigen por la legislación estonia, sin perjuicio de la
+              normativa imperativa del país de residencia del usuario cuando corresponda. Para la
+              resolución de cualquier controversia, las partes se someten a los tribunales
+              competentes del domicilio del titular, salvo que la normativa aplicable (en
+              particular, en materia de consumo y de protección de datos) establezca otra
+              competencia.
             </p>
           </div>
 

@@ -4,17 +4,41 @@ import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 import Breadcrumb from "../../components/Breadcrumb";
 import Interactions from "../../components/Interactions";
+import { OrganizationSchema, BreadcrumbSchema, PersonSchema } from "../../components/Schema";
 
 export const metadata: Metadata = {
-  title: "Gonzalo Castro · Consultor de crecimiento para despachos · TFB Legal",
+  title: "Gonzalo Castro · Consultor de marketing jurídico",
   description:
-    "Director y fundador de The Funnel Box. Consultor especializado en marketing jurídico, IA aplicada y escalado comercial para despachos medianos.",
+    "Director y fundador de The Funnel Box. Consultor en marketing jurídico, IA aplicada y escalado comercial para despachos medianos de abogados.",
   alternates: { canonical: "/nosotros/gonzalo-castro/" },
+  openGraph: {
+    title: "Gonzalo Castro · TFB Legal",
+    description:
+      "Consultor de crecimiento. Director de The Funnel Box. Marketing jurídico, IA y escalado.",
+    url: "/nosotros/gonzalo-castro/",
+    type: "profile",
+    locale: "es_ES",
+    siteName: "TFB Legal",
+  },
 };
 
 export default function GonzaloBioPage() {
   return (
     <>
+      <OrganizationSchema />
+      <BreadcrumbSchema
+        items={[
+          { name: "Inicio", url: "/" },
+          { name: "Nosotros", url: "/nosotros/" },
+          { name: "Gonzalo Castro", url: "/nosotros/gonzalo-castro/" },
+        ]}
+      />
+      <PersonSchema
+        name="Gonzalo Castro"
+        slug="gonzalo-castro"
+        jobTitle="Co-fundador y director · Consultor de crecimiento para despachos de abogados"
+        description="Director y fundador de The Funnel Box. Consultor en marketing jurídico, IA aplicada y escalado comercial para despachos medianos."
+      />
       <SiteHeader />
 
       <div className="band-inner">
@@ -54,7 +78,7 @@ export default function GonzaloBioPage() {
               <dt>Email</dt>
               <dd>gonzalo@thefunnelbox.com</dd>
               <dt>LinkedIn</dt>
-              <dd>[COMPLETAR]</dd>
+              <dd>[COMPLETAR · URL LinkedIn de Gonzalo Castro]</dd>
             </dl>
           </div>
         </div>

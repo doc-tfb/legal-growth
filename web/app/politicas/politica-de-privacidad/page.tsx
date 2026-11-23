@@ -4,17 +4,39 @@ import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 import Breadcrumb from "../../components/Breadcrumb";
 import Interactions from "../../components/Interactions";
+import { OrganizationSchema, BreadcrumbSchema } from "../../components/Schema";
 
 export const metadata: Metadata = {
   title: "Política de privacidad · TFB Legal",
   description:
-    "Política de privacidad y protección de datos personales de tfblegal.com conforme al RGPD y la LOPDGDD. Responsable, finalidades, base jurídica, destinatarios, conservación y derechos.",
+    "Política de privacidad RGPD de tfblegal.com. Responsable: The Funnel Box OÜ. Datos recogidos, finalidades, encargados de tratamiento y derechos del usuario.",
   alternates: { canonical: "/politicas/politica-de-privacidad/" },
+  openGraph: {
+    title: "Política de privacidad · TFB Legal",
+    description:
+      "Responsable del tratamiento: The Funnel Box OÜ. Datos, finalidades, encargados y derechos del usuario.",
+    url: "/politicas/politica-de-privacidad/",
+    type: "website",
+    locale: "es_ES",
+    siteName: "TFB Legal",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Política de privacidad · TFB Legal",
+    description: "Responsable: The Funnel Box OÜ. Conforme al RGPD.",
+  },
 };
 
 export default function PrivacidadPage() {
   return (
     <>
+      <OrganizationSchema />
+      <BreadcrumbSchema
+        items={[
+          { name: "Inicio", url: "/" },
+          { name: "Privacidad", url: "/politicas/politica-de-privacidad/" },
+        ]}
+      />
       <SiteHeader />
 
       <div className="band-inner">
@@ -44,11 +66,18 @@ export default function PrivacidadPage() {
               Responsable del tratamiento
             </h2>
             <p>
-              <strong>Razón social:</strong> [COMPLETAR].<br />
-              <strong>NIF / CIF:</strong> [COMPLETAR].<br />
-              <strong>Dirección:</strong> [COMPLETAR].<br />
+              <strong>Razón social:</strong> The Funnel Box OÜ.<br />
+              <strong>Marca:</strong> TFB Legal.<br />
+              <strong>Número de registro (Estonia):</strong>{" "}
+              [COMPLETAR · registry code TFB OÜ].<br />
+              <strong>Domicilio:</strong>{" "}
+              [COMPLETAR · dirección completa de TFB OÜ en Estonia].<br />
               <strong>Email:</strong>{" "}
-              <a href="mailto:gonzalo@thefunnelbox.com">gonzalo@thefunnelbox.com</a>.
+              <a href="mailto:gonzalo@thefunnelbox.com">gonzalo@thefunnelbox.com</a>.<br />
+              <strong>Contacto RGPD / Protección de datos:</strong>{" "}
+              <a href="mailto:gonzalo@thefunnelbox.com">gonzalo@thefunnelbox.com</a>{" "}
+              (asunto &quot;RGPD&quot;). Hasta la designación formal de un DPO, el responsable
+              atiende directamente las solicitudes de derechos.
             </p>
 
             <h2 style={{ fontFamily: "var(--font-serif)", fontWeight: 500, fontSize: "1.3rem", margin: "32px 0 14px" }}>
@@ -91,14 +120,40 @@ export default function PrivacidadPage() {
             </p>
 
             <h2 style={{ fontFamily: "var(--font-serif)", fontWeight: 500, fontSize: "1.3rem", margin: "32px 0 14px" }}>
-              Destinatarios
+              Encargados de tratamiento
             </h2>
             <p>
               Los datos pueden ser tratados por encargados contratados por el responsable para
-              funciones técnicas: proveedor de hosting (Vercel), proveedor de CRM (HubSpot),
-              proveedor de email transaccional (Resend), proveedor de analítica (Google). Todos
-              ellos operan conforme al RGPD con cláusulas contractuales estándar cuando
-              corresponda.
+              funciones técnicas:
+            </p>
+            <ul style={{ margin: "0 0 18px 20px" }}>
+              <li>
+                <strong>Vercel Inc.</strong> — hosting del sitio. Infraestructura global (EU +
+                US). Base: cláusulas contractuales tipo UE.
+              </li>
+              <li>
+                <strong>Sanity.io (Sanity AS)</strong> — CMS de contenidos. Infraestructura EU +
+                US. Base: cláusulas contractuales tipo UE.
+              </li>
+              <li>
+                <strong>HubSpot Inc.</strong> — CRM y automatización comercial. Portal UE si
+                aplica. Base: cláusulas contractuales tipo UE.
+              </li>
+              <li>
+                <strong>Resend</strong> — envío de emails transaccionales (confirmaciones,
+                entrega de lead magnets). Base: cláusulas contractuales tipo UE.
+              </li>
+              <li>
+                <strong>Google LLC</strong> — Google Analytics 4 y Google Tag Manager para
+                analítica agregada. Base: Consent Mode v2 + cláusulas contractuales tipo UE.
+              </li>
+              <li>
+                <strong>Google Fonts (Google LLC)</strong> — servicio de tipografías web.
+              </li>
+            </ul>
+            <p>
+              Todos ellos operan conforme al RGPD con cláusulas contractuales estándar cuando
+              corresponda. La lista se actualiza cuando se incorpora o retira un proveedor.
             </p>
 
             <h2 style={{ fontFamily: "var(--font-serif)", fontWeight: 500, fontSize: "1.3rem", margin: "32px 0 14px" }}>
@@ -108,19 +163,27 @@ export default function PrivacidadPage() {
               Tenés derecho a acceder, rectificar, suprimir, oponerte, limitar el tratamiento y
               portar tus datos personales. Podés ejercer estos derechos enviando un correo a{" "}
               <a href="mailto:gonzalo@thefunnelbox.com">gonzalo@thefunnelbox.com</a> con el asunto
-              &quot;RGPD&quot; y acreditando tu identidad. Asimismo, podés reclamar ante la Agencia
-              Española de Protección de Datos ({" "}
-              <a href="https://www.aepd.es" target="_blank" rel="noopener noreferrer">aepd.es</a>) si
-              considerás vulnerados tus derechos.
+              &quot;RGPD&quot; y acreditando tu identidad. Asimismo, podés reclamar ante la
+              autoridad de control competente: en España la{" "}
+              <a href="https://www.aepd.es" target="_blank" rel="noopener noreferrer">
+                Agencia Española de Protección de Datos
+              </a>
+              {"; "}
+              en la UE, la autoridad del país de residencia. En Estonia, la{" "}
+              <a href="https://www.aki.ee/en" target="_blank" rel="noopener noreferrer">
+                Andmekaitse Inspektsioon
+              </a>{" "}
+              (Estonian Data Protection Inspectorate).
             </p>
 
             <h2 style={{ fontFamily: "var(--font-serif)", fontWeight: 500, fontSize: "1.3rem", margin: "32px 0 14px" }}>
               Transferencias internacionales
             </h2>
             <p>
-              Algunos encargados de tratamiento (Vercel, HubSpot, Google) pueden alojar datos fuera
-              del Espacio Económico Europeo. En esos casos, se aplican las cláusulas contractuales
-              tipo aprobadas por la Comisión Europea y los mecanismos de adecuación vigentes.
+              Algunos encargados de tratamiento (Vercel, HubSpot, Google, Resend) pueden alojar
+              datos fuera del Espacio Económico Europeo. En esos casos, se aplican las cláusulas
+              contractuales tipo aprobadas por la Comisión Europea y los mecanismos de adecuación
+              vigentes.
             </p>
           </div>
 

@@ -54,9 +54,14 @@ export default function SiteFooter() {
             </div>
           </div>
           <div className="footer-bottom">
-            <div>&copy; {year} TFB Legal · tfblegal.com</div>
+            <div>
+              &copy; {year} TFB Legal · tfblegal.com
+              <span style={{ opacity: 0.6, marginLeft: "8px" }}>
+                · Marca de The Funnel Box OÜ · Estonia
+              </span>
+            </div>
             <div className="footer-bottom-right">
-              <a href="https://thefunnelbox.com">The Funnel Box</a>
+              <a href="https://thefunnelbox.com" target="_blank" rel="noopener noreferrer">The Funnel Box</a>
               <a href="#">Brandly</a>
               <button type="button" className="theme-toggle" id="themeToggle">Tema</button>
             </div>

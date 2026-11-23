@@ -4,17 +4,43 @@ import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 import Breadcrumb from "../components/Breadcrumb";
 import Interactions from "../components/Interactions";
+import { OrganizationSchema, BreadcrumbSchema, FAQSchema } from "../components/Schema";
 
 export const metadata: Metadata = {
-  title: "Contacto · Agenda 30 minutos | TFB Legal",
+  title: "Contacto · Agendá 30 minutos con TFB Legal",
   description:
-    "Agendá una consulta de 30 minutos por videollamada. Diagnóstico inicial gratuito con 2–3 palancas accionables aunque no quieras avanzar con nosotros.",
+    "Agendá consulta de 30 minutos por videollamada. Diagnóstico inicial gratuito con 2–3 palancas accionables. Respondemos en menos de 24 h hábiles.",
   alternates: { canonical: "/contacto/" },
+  openGraph: {
+    title: "Contacto · TFB Legal",
+    description:
+      "30 minutos sin compromiso. Diagnóstico inicial gratuito para tu despacho.",
+    url: "/contacto/",
+    type: "website",
+    locale: "es_ES",
+    siteName: "TFB Legal",
+  },
 };
 
 export default function ContactoPage() {
   return (
     <>
+      <OrganizationSchema />
+      <BreadcrumbSchema
+        items={[
+          { name: "Inicio", url: "/" },
+          { name: "Contacto", url: "/contacto/" },
+        ]}
+      />
+      <FAQSchema
+        questions={[
+          { q: "¿La primera reunión es realmente gratuita?", a: "Sí. Sin letras chicas, sin pedir tarjeta, sin nada después." },
+          { q: "¿Me van a vender a mitad de la reunión?", a: "No. En los primeros 25 minutos no hablamos de servicios ni precios. En los últimos 5, sólo si vos preguntás." },
+          { q: "¿Puedo traer a otro socio?", a: "Sí, hasta 2 personas de tu despacho sin pedir permiso." },
+          { q: "¿Qué pasa si después no quiero avanzar?", a: "Nada. Te quedás con las palancas que te dimos. No hay follow-up insistente." },
+          { q: "¿Trabajan fuera de España, México y Argentina?", a: "Prioridad son esos tres mercados. Si estás en otro país hispanohablante y el proyecto encaja, lo evaluamos." },
+        ]}
+      />
       <SiteHeader />
 
       <div className="band-inner">
@@ -213,19 +239,26 @@ export default function ContactoPage() {
             </div>
             <div className="kv-row">
               <div className="kv-k">Email Carla</div>
-              <div className="kv-v">[COMPLETAR]</div>
+              <div className="kv-v">[COMPLETAR · email de Carla]</div>
             </div>
             <div className="kv-row">
               <div className="kv-k">LinkedIn Gonzalo</div>
-              <div className="kv-v">[COMPLETAR]</div>
+              <div className="kv-v">[COMPLETAR · URL LinkedIn de Gonzalo Castro]</div>
             </div>
             <div className="kv-row">
               <div className="kv-k">LinkedIn Carla</div>
-              <div className="kv-v">[COMPLETAR]</div>
+              <div className="kv-v">[COMPLETAR · URL LinkedIn de Carla Fresch Pons]</div>
             </div>
             <div className="kv-row">
               <div className="kv-k">Ciudades base</div>
-              <div className="kv-v">[COMPLETAR: ciudad Gonzalo] · [COMPLETAR: ciudad Carla]</div>
+              <div className="kv-v">España (Gonzalo) · [COMPLETAR · ciudad de Carla]</div>
+            </div>
+            <div className="kv-row">
+              <div className="kv-k">Responsable legal</div>
+              <div className="kv-v">
+                The Funnel Box OÜ · Estonia · ver{" "}
+                <Link href="/politicas/aviso-legal/">aviso legal</Link>.
+              </div>
             </div>
             <div className="kv-row">
               <div className="kv-k">Presencial</div>
