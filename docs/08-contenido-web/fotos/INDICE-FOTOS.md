@@ -472,18 +472,6 @@ Miniatura de caso de la versión DESCARTADA del speaker con casos. No es el broc
 - **Página / sección sugerida:** Ninguna página pública. Solo archivo interno, para que Iris no las confunda con material aprobado.
 - **Restricciones:** NO PUBLICAR. No usar métricas ni logos de estas miniaturas. Ver INDICE.md.
 
-## `descartado-casos/caso-miralles.jpg`
-
-Miniatura de caso de la versión DESCARTADA del speaker con casos. No es el brochure vigente.
-
-- **Dimensiones:** 395×305 px
-- **Peso / formato:** 17.8 KB · JPEG
-- **sha256:** `7b7280ae39ab83d41a6800f18a9d3fa986935d9fb25502476e73d04b74f84f7e`
-- **Origen en el box (archivo de trabajo):** `brochure/caso-miralles.jpg`
-- **Origen documentado:** /workspace/lgs/colegios-formaciones/speaker-pdf/img/caso-*.jpg
-- **Página / sección sugerida:** Ninguna página pública. Solo archivo interno, para que Iris no las confunda con material aprobado.
-- **Restricciones:** NO PUBLICAR. No usar métricas ni logos de estas miniaturas. Ver INDICE.md.
-
 ## `descartado-casos/caso-orejas.jpg`
 
 Miniatura de caso de la versión DESCARTADA del speaker con casos. No es el brochure vigente.
