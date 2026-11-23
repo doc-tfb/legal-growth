@@ -4,17 +4,35 @@ import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 import Breadcrumb from "../../components/Breadcrumb";
 import Interactions from "../../components/Interactions";
+import { OrganizationSchema, BreadcrumbSchema } from "../../components/Schema";
 
 export const metadata: Metadata = {
-  title: "Caso Orejas Abogados · SEO local y Google Ads provincial · TFB Legal",
+  title: "Caso Orejas Abogados · SEO local y Google Ads provincial",
   description:
-    "Caso de un despacho mediano en Oviedo: cómo posicionar en SEO local, Google Ads provincial y Meta Ads fuera del eje Madrid–Barcelona.",
+    "Caso real: cómo posicionar un despacho con base en Oviedo con SEO local, Google Ads provincial y Meta Ads. Dos verticales distintas, un solo equipo.",
   alternates: { canonical: "/casos/orj-orejas-abogados/" },
+  openGraph: {
+    title: "Caso Orejas Abogados · TFB Legal",
+    description:
+      "Despacho con base en Oviedo. SEO local + Google Ads provincial + Meta Ads para revolving y Segunda Oportunidad.",
+    url: "/casos/orj-orejas-abogados/",
+    type: "article",
+    locale: "es_ES",
+    siteName: "TFB Legal",
+  },
 };
 
 export default function CasoORJPage() {
   return (
     <>
+      <OrganizationSchema />
+      <BreadcrumbSchema
+        items={[
+          { name: "Inicio", url: "/" },
+          { name: "Casos", url: "/casos/" },
+          { name: "Orejas Abogados", url: "/casos/orj-orejas-abogados/" },
+        ]}
+      />
       <SiteHeader />
 
       <div className="band-inner">

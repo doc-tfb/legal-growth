@@ -4,12 +4,22 @@ import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 import Breadcrumb from "../components/Breadcrumb";
 import Interactions from "../components/Interactions";
+import { OrganizationSchema, BreadcrumbSchema } from "../components/Schema";
 
 export const metadata: Metadata = {
-  title: "Servicios · Marketing, consultoría, formación y speaker | TFB Legal",
+  title: "Servicios · Marketing, consultoría, formación y speaker",
   description:
-    "Cuatro servicios bajo una misma firma: marketing jurídico, consultoría estratégica, formación para despachos y speaker en congresos legaltech. Para despachos medianos en España, México y Argentina.",
+    "Cuatro servicios para despachos medianos: marketing jurídico, consultoría estratégica, formación y speaker. Modelos claros, ejecución real, atribución al cliente firmado.",
   alternates: { canonical: "/servicios/" },
+  openGraph: {
+    title: "Servicios · TFB Legal",
+    description:
+      "Marketing jurídico, consultoría, formación y speaker. Cuatro servicios bajo una misma firma. ES · MX · AR.",
+    url: "/servicios/",
+    type: "website",
+    locale: "es_ES",
+    siteName: "TFB Legal",
+  },
 };
 
 const SERVICES = [
@@ -98,6 +108,13 @@ const SERVICES = [
 export default function ServiciosHub() {
   return (
     <>
+      <OrganizationSchema />
+      <BreadcrumbSchema
+        items={[
+          { name: "Inicio", url: "/" },
+          { name: "Servicios", url: "/servicios/" },
+        ]}
+      />
       <SiteHeader />
 
       <div className="band-inner">

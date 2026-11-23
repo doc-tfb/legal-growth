@@ -4,17 +4,35 @@ import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 import Breadcrumb from "../../components/Breadcrumb";
 import Interactions from "../../components/Interactions";
+import { OrganizationSchema, BreadcrumbSchema } from "../../components/Schema";
 
 export const metadata: Metadata = {
-  title: "Caso Gestores Concursales · Migración + SEO técnico · TFB Legal",
+  title: "Caso Gestores Concursales · Migración + SEO técnico + CRM",
   description:
-    "Migración integral del WordPress original de Gestores Concursales a un stack moderno con SEO técnico, atribución end-to-end al CRM y workflow editorial Sanity → Vercel.",
+    "Caso real: migración del WordPress legacy de Gestores Concursales a stack propio con SEO técnico, Core Web Vitals en verde y atribución end-to-end al CRM.",
   alternates: { canonical: "/casos/gce-gestores-concursales/" },
+  openGraph: {
+    title: "Caso Gestores Concursales · TFB Legal",
+    description:
+      "Migración WordPress → stack propio, SEO técnico, atribución CRM. 0 pérdida de posicionamiento.",
+    url: "/casos/gce-gestores-concursales/",
+    type: "article",
+    locale: "es_ES",
+    siteName: "TFB Legal",
+  },
 };
 
 export default function CasoGCEPage() {
   return (
     <>
+      <OrganizationSchema />
+      <BreadcrumbSchema
+        items={[
+          { name: "Inicio", url: "/" },
+          { name: "Casos", url: "/casos/" },
+          { name: "Gestores Concursales", url: "/casos/gce-gestores-concursales/" },
+        ]}
+      />
       <SiteHeader />
 
       <div className="band-inner">

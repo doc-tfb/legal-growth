@@ -4,17 +4,34 @@ import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 import Breadcrumb from "../components/Breadcrumb";
 import Interactions from "../components/Interactions";
+import { OrganizationSchema, BreadcrumbSchema } from "../components/Schema";
 
 export const metadata: Metadata = {
-  title: "Nosotros · Gonzalo Castro & Carla Fresch Pons | TFB Legal",
+  title: "Nosotros · Gonzalo Castro & Carla Fresch Pons",
   description:
-    "Dos personas detrás de la firma: Gonzalo Castro (The Funnel Box, marketing e IA) y Carla Fresch Pons (ex-abogada del Poder Judicial de Argentina, gestión del despacho).",
+    "Dos personas detrás de la firma: Gonzalo Castro (The Funnel Box · marketing e IA) y Carla Fresch Pons (ex-abogada del Poder Judicial de Argentina). Co-fundadores de TFB Legal.",
   alternates: { canonical: "/nosotros/" },
+  openGraph: {
+    title: "Nosotros · TFB Legal",
+    description:
+      "Gonzalo Castro y Carla Fresch Pons: dos trayectorias complementarias detrás de la firma.",
+    url: "/nosotros/",
+    type: "website",
+    locale: "es_ES",
+    siteName: "TFB Legal",
+  },
 };
 
 export default function NosotrosHub() {
   return (
     <>
+      <OrganizationSchema />
+      <BreadcrumbSchema
+        items={[
+          { name: "Inicio", url: "/" },
+          { name: "Nosotros", url: "/nosotros/" },
+        ]}
+      />
       <SiteHeader />
 
       <div className="band-inner">

@@ -4,17 +4,50 @@ import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 import Breadcrumb from "../../components/Breadcrumb";
 import Interactions from "../../components/Interactions";
+import { OrganizationSchema, BreadcrumbSchema, ServiceSchema, FAQSchema } from "../../components/Schema";
 
 export const metadata: Metadata = {
-  title: "Consultoría estratégica para despachos de abogados · TFB Legal",
+  title: "Consultoría estratégica para despachos de abogados",
   description:
-    "Diagnóstico de crecimiento, gestión del despacho y estrategia comercial para socios-directores. Diagnosticamos y ejecutamos: no entregamos informes para guardar.",
+    "Diagnóstico de crecimiento, gestión y estrategia comercial para socios-directores. Diagnosticamos y ejecutamos. Desde 4.500 € · 30 días.",
   alternates: { canonical: "/servicios/consultoria-estrategica/" },
+  openGraph: {
+    title: "Consultoría estratégica para despachos · TFB Legal",
+    description:
+      "Diagnóstico + plan + KPIs para socios-directores saturados. Carla aporta la mirada del abogado, Gonzalo la ejecución.",
+    url: "/servicios/consultoria-estrategica/",
+    type: "website",
+    locale: "es_ES",
+    siteName: "TFB Legal",
+  },
 };
 
 export default function ConsultoriaPage() {
   return (
     <>
+      <OrganizationSchema />
+      <BreadcrumbSchema
+        items={[
+          { name: "Inicio", url: "/" },
+          { name: "Servicios", url: "/servicios/" },
+          { name: "Consultoría estratégica", url: "/servicios/consultoria-estrategica/" },
+        ]}
+      />
+      <ServiceSchema
+        name="Consultoría estratégica para despachos"
+        slug="consultoria-estrategica"
+        serviceType="Consultoría estratégica para despachos de abogados"
+        description="Diagnóstico de crecimiento, pricing, operaciones y plan 90 días para socios-directores de despachos medianos."
+      />
+      <FAQSchema
+        questions={[
+          { q: "¿Cuánto cuesta?", a: "Diagnóstico inicial: desde 4.500 €. Acompañamiento mensual posterior: desde 2.500 €/mes." },
+          { q: "¿Cuánto dura un engagement típico?", a: "Mínimo 6 meses para ver cambio real." },
+          { q: "¿Tengo que contratar también el marketing?", a: "No. Consultoría y marketing se contratan por separado o juntos." },
+          { q: "¿Trabajan con despachos de un solo socio?", a: "Sí, si el socio factura más de 150 K € al año." },
+          { q: "¿Tenés que viajar al despacho?", a: "No. Trabajamos remoto por videollamada. Presencial opcional en Madrid, Barcelona o Valencia." },
+        ]}
+      />
       <SiteHeader />
 
       <div className="band-inner">

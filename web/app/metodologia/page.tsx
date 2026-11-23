@@ -4,17 +4,42 @@ import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 import Breadcrumb from "../components/Breadcrumb";
 import Interactions from "../components/Interactions";
+import { OrganizationSchema, BreadcrumbSchema, FAQSchema } from "../components/Schema";
 
 export const metadata: Metadata = {
-  title: "Metodología · Cómo entramos a un despacho | TFB Legal",
+  title: "Metodología · Cómo entramos a un despacho",
   description:
-    "Nuestra metodología de crecimiento para despachos: diagnóstico, plan, ejecución y transferencia. 4 fases, 120 días hasta el primer resultado medible, 6 meses hasta autonomía.",
+    "Metodología de crecimiento para despachos: diagnóstico (30 días), plan (7 días), ejecución (90 días) y transferencia. Primer resultado medible a 120 días.",
   alternates: { canonical: "/metodologia/" },
+  openGraph: {
+    title: "Metodología · TFB Legal",
+    description:
+      "4 fases, 120 días hasta el primer resultado, 6 meses hasta autonomía.",
+    url: "/metodologia/",
+    type: "website",
+    locale: "es_ES",
+    siteName: "TFB Legal",
+  },
 };
 
 export default function MetodologiaPage() {
   return (
     <>
+      <OrganizationSchema />
+      <BreadcrumbSchema
+        items={[
+          { name: "Inicio", url: "/" },
+          { name: "Metodología", url: "/metodologia/" },
+        ]}
+      />
+      <FAQSchema
+        questions={[
+          { q: "¿Qué pasa si el diagnóstico sugiere algo que no está en vuestros servicios?", a: "Te lo decimos directamente. Si necesitás un contador especializado, un abogado laboralista para tu propia estructura o una agencia de BPO, te recomendamos a quien corresponda." },
+          { q: "¿Cuánto cuesta cada fase?", a: "Diagnóstico aparte del retainer (coste puntual). Estrategia y ejecución integradas en el retainer mensual. Formación incluida." },
+          { q: "¿Funciona en despachos muy chicos?", a: "Para despachos de 1–3 abogados recomendamos empezar por el curso online o una consultoría puntual. El retainer completo tiene sentido a partir de 5 abogados y 500 K € de facturación anual." },
+          { q: "¿Funciona en despachos muy grandes?", a: "Despachos de 30+ abogados con departamento de marketing propio ya tienen estructura. Para ellos ofrecemos consultoría puntual o formación in-company." },
+        ]}
+      />
       <SiteHeader />
 
       <div className="band-inner">

@@ -4,12 +4,22 @@ import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 import Breadcrumb from "../components/Breadcrumb";
 import Interactions from "../components/Interactions";
+import { OrganizationSchema, BreadcrumbSchema, WebPageSchema } from "../components/Schema";
 
 export const metadata: Metadata = {
-  title: "Journal · Marketing jurídico, gestión del despacho e IA | TFB Legal",
+  title: "Journal · Marketing jurídico, gestión del despacho e IA",
   description:
-    "Artículos propios sobre marketing jurídico, gestión del despacho, SEO, Google Ads e IA aplicada al sector legal. Semanal. Firmado por Gonzalo o Carla.",
+    "Artículos sobre marketing jurídico, gestión del despacho, SEO, Google Ads e IA aplicada al sector legal. Firmado por Gonzalo Castro o Carla Fresch Pons.",
   alternates: { canonical: "/blog/" },
+  openGraph: {
+    title: "Journal · TFB Legal",
+    description:
+      "Marketing jurídico, gestión del despacho, SEO, Ads e IA. Cadencia semanal. ES · MX · AR.",
+    url: "/blog/",
+    type: "website",
+    locale: "es_ES",
+    siteName: "TFB Legal",
+  },
 };
 
 const PLANNED = [
@@ -24,6 +34,18 @@ const PLANNED = [
 export default function BlogShellPage() {
   return (
     <>
+      <OrganizationSchema />
+      <BreadcrumbSchema
+        items={[
+          { name: "Inicio", url: "/" },
+          { name: "Journal", url: "/blog/" },
+        ]}
+      />
+      <WebPageSchema
+        title="Journal · TFB Legal"
+        description="Artículos sobre marketing jurídico, gestión del despacho, SEO, Ads e IA aplicada al sector legal."
+        url="/blog/"
+      />
       <SiteHeader />
 
       <div className="band-inner">

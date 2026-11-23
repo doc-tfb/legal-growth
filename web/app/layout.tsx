@@ -1,25 +1,51 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://tfblegal.com";
+
 export const metadata: Metadata = {
-  title: "TFB Legal",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "TFB Legal · Consultoría para despachos de abogados",
+    template: "%s · TFB Legal",
+  },
   description:
-    "Consultoría de crecimiento para despachos de abogados medianos en España, México y Argentina. Dirigida por Gonzalo Castro y Carla Fresch Pons. Impulsada por The Funnel Box y Brandly.",
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://tfblegal.com"),
+    "Marketing, consultoría estratégica, formación y speaker para despachos de abogados medianos en España, México y Argentina. Ejecución operativa, atribución real.",
+  applicationName: "TFB Legal",
+  authors: [{ name: "The Funnel Box OÜ", url: SITE_URL }],
+  creator: "The Funnel Box OÜ",
+  publisher: "The Funnel Box OÜ",
+  formatDetection: { email: false, address: false, telephone: false },
   openGraph: {
-    title: "TFB Legal",
-    description:
-      "Consultoría de crecimiento para despachos de abogados medianos en España, México y Argentina.",
     type: "website",
     locale: "es_ES",
     siteName: "TFB Legal",
+    url: SITE_URL,
+    title: "TFB Legal · Consultoría para despachos de abogados",
+    description:
+      "Marketing, consultoría estratégica, formación y speaker para despachos medianos en España, México y Argentina.",
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "TFB Legal" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "TFB Legal",
+    title: "TFB Legal · Consultoría para despachos de abogados",
     description:
-      "Consultoría de crecimiento para despachos de abogados medianos en España, México y Argentina.",
+      "Marketing, consultoría, formación y speaker para despachos medianos en ES · MX · AR.",
+    images: ["/og.png"],
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  alternates: { canonical: "/" },
+  category: "business",
 };
 
 export const viewport: Viewport = {

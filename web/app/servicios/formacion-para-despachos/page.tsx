@@ -4,17 +4,49 @@ import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 import Breadcrumb from "../../components/Breadcrumb";
 import Interactions from "../../components/Interactions";
+import { OrganizationSchema, BreadcrumbSchema, ServiceSchema, FAQSchema } from "../../components/Schema";
 
 export const metadata: Metadata = {
-  title: "Formación para despachos de abogados · TFB Legal",
+  title: "Cursos para abogados · Formación para despachos",
   description:
-    "Formación práctica para socios-directores y equipos legales. In-company o abierto. Marketing, gestión del despacho e IA aplicada. Sin jargon de escuela de negocio.",
+    "Cursos y formación práctica para socios-directores y equipos legales. In-company o abierto. Marketing jurídico, gestión del despacho e IA aplicada. Desde 3.500 €.",
   alternates: { canonical: "/servicios/formacion-para-despachos/" },
+  openGraph: {
+    title: "Formación para despachos de abogados · TFB Legal",
+    description:
+      "Programas prácticos para socios y equipos. Marketing, gestión del despacho e IA. In-company o abierto con partner académico.",
+    url: "/servicios/formacion-para-despachos/",
+    type: "website",
+    locale: "es_ES",
+    siteName: "TFB Legal",
+  },
 };
 
 export default function FormacionPage() {
   return (
     <>
+      <OrganizationSchema />
+      <BreadcrumbSchema
+        items={[
+          { name: "Inicio", url: "/" },
+          { name: "Servicios", url: "/servicios/" },
+          { name: "Formación", url: "/servicios/formacion-para-despachos/" },
+        ]}
+      />
+      <ServiceSchema
+        name="Formación para despachos de abogados"
+        slug="formacion-para-despachos"
+        serviceType="Formación profesional para despachos de abogados"
+        description="Programas prácticos in-company y abiertos para socios y equipos. Marketing jurídico, gestión del despacho e IA aplicada."
+      />
+      <FAQSchema
+        questions={[
+          { q: "¿La formación da certificado?", a: "In-company y online abierto: certificado propio de la marca. Diploma con partner: certificación del partner académico (ESADE / Anáhuac / ESEADE según mercado)." },
+          { q: "¿Es bonificable por FUNDAE?", a: "In-company sí, casi siempre. Online abierto en tramitación." },
+          { q: "¿Cómo sé si estoy listo para el curso?", a: "Si facturás al menos 300 K € anuales, tenés al menos 5 abogados y sentís que el crecimiento se estancó, estás listo." },
+          { q: "¿Hay materiales descargables?", a: "Sí. Plantillas, checklists y framework operativo. Todo descargable y usable después del curso." },
+        ]}
+      />
       <SiteHeader />
 
       <div className="band-inner">

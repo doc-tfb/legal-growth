@@ -4,17 +4,34 @@ import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 import Breadcrumb from "../components/Breadcrumb";
 import Interactions from "../components/Interactions";
+import { OrganizationSchema, BreadcrumbSchema } from "../components/Schema";
 
 export const metadata: Metadata = {
-  title: "Casos · Despachos que hemos acompañado | TFB Legal",
+  title: "Casos · Despachos acompañados por TFB Legal",
   description:
-    "Casos reales de despachos de abogados acompañados: migración, SEO técnico, atribución de leads, SEO local, Google Ads provincial, IA aplicada al despacho fiscal.",
+    "Casos reales de despachos de abogados: migración WordPress → stack propio, SEO técnico, atribución de leads, SEO local, Google Ads provincial, IA aplicada al despacho.",
   alternates: { canonical: "/casos/" },
+  openGraph: {
+    title: "Casos · TFB Legal",
+    description:
+      "Dos casos vivos en España (Gestores Concursales, Orejas Abogados) y un piloto mexicano por arrancar.",
+    url: "/casos/",
+    type: "website",
+    locale: "es_ES",
+    siteName: "TFB Legal",
+  },
 };
 
 export default function CasosHub() {
   return (
     <>
+      <OrganizationSchema />
+      <BreadcrumbSchema
+        items={[
+          { name: "Inicio", url: "/" },
+          { name: "Casos", url: "/casos/" },
+        ]}
+      />
       <SiteHeader />
 
       <div className="band-inner">

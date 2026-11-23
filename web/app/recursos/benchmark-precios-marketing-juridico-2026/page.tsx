@@ -4,17 +4,39 @@ import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 import Breadcrumb from "../../components/Breadcrumb";
 import Interactions from "../../components/Interactions";
+import { OrganizationSchema, BreadcrumbSchema, WebPageSchema } from "../../components/Schema";
 
 export const metadata: Metadata = {
-  title: "Benchmark precios marketing jurídico 2026 (España) · TFB Legal",
+  title: "Cuánto cuesta el marketing para abogados · Benchmark 2026",
   description:
-    "Rangos reales de presupuesto de marketing para despachos medianos en España: SEO, Google Ads, LinkedIn, web. 22 páginas en PDF, gratuito.",
+    "Rangos reales de presupuesto de marketing jurídico en España: SEO, Google Ads, LinkedIn y web. 22 páginas en PDF, gratuito. Datos de 40+ proyectos reales.",
   alternates: { canonical: "/recursos/benchmark-precios-marketing-juridico-2026/" },
+  openGraph: {
+    title: "Benchmark precios marketing jurídico 2026 · TFB Legal",
+    description:
+      "Qué paga un despacho mediano en España por SEO, Ads, LinkedIn y web. 22 páginas gratis.",
+    url: "/recursos/benchmark-precios-marketing-juridico-2026/",
+    type: "website",
+    locale: "es_ES",
+    siteName: "TFB Legal",
+  },
 };
 
 export default function LeadMagnetPage() {
   return (
     <>
+      <OrganizationSchema />
+      <BreadcrumbSchema
+        items={[
+          { name: "Inicio", url: "/" },
+          { name: "Benchmark precios 2026", url: "/recursos/benchmark-precios-marketing-juridico-2026/" },
+        ]}
+      />
+      <WebPageSchema
+        title="Benchmark precios marketing jurídico 2026"
+        description="Rangos reales de presupuesto de marketing para despachos medianos en España. 22 páginas en PDF, gratuito."
+        url="/recursos/benchmark-precios-marketing-juridico-2026/"
+      />
       <SiteHeader />
 
       <div className="band-inner">

@@ -4,17 +4,41 @@ import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 import Breadcrumb from "../../components/Breadcrumb";
 import Interactions from "../../components/Interactions";
+import { OrganizationSchema, BreadcrumbSchema, ServiceSchema } from "../../components/Schema";
 
 export const metadata: Metadata = {
-  title: "Speaker · Ponencias en marketing jurídico e IA · TFB Legal",
+  title: "Speaker · Ponencias en marketing jurídico e IA aplicada",
   description:
-    "Keynotes, workshops y mesas redondas para congresos legaltech, programas académicos y eventos corporativos. Marketing jurídico, IA aplicada al despacho y gestión. ES, MX, AR.",
+    "Keynotes, workshops y mesas redondas para congresos legaltech, programas académicos y eventos corporativos. Marketing jurídico, IA y gestión del despacho. ES · MX · AR.",
   alternates: { canonical: "/servicios/speaker-conferencias/" },
+  openGraph: {
+    title: "Speaker · Ponencias en marketing jurídico e IA · TFB Legal",
+    description:
+      "Keynotes y workshops en legaltech, programas académicos y eventos corporativos.",
+    url: "/servicios/speaker-conferencias/",
+    type: "website",
+    locale: "es_ES",
+    siteName: "TFB Legal",
+  },
 };
 
 export default function SpeakerPage() {
   return (
     <>
+      <OrganizationSchema />
+      <BreadcrumbSchema
+        items={[
+          { name: "Inicio", url: "/" },
+          { name: "Servicios", url: "/servicios/" },
+          { name: "Speaker", url: "/servicios/speaker-conferencias/" },
+        ]}
+      />
+      <ServiceSchema
+        name="Speaker · Ponencias en marketing jurídico e IA"
+        slug="speaker-conferencias"
+        serviceType="Ponencias y keynotes profesionales"
+        description="Keynotes, workshops y mesas redondas sobre marketing jurídico, IA aplicada al despacho y gestión. Congresos legaltech, programas académicos y eventos corporativos."
+      />
       <SiteHeader />
 
       <div className="band-inner">

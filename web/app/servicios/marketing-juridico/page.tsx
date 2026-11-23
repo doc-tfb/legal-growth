@@ -4,17 +4,50 @@ import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 import Breadcrumb from "../../components/Breadcrumb";
 import Interactions from "../../components/Interactions";
+import { OrganizationSchema, BreadcrumbSchema, ServiceSchema, FAQSchema } from "../../components/Schema";
 
 export const metadata: Metadata = {
-  title: "Marketing jurídico para despachos · TFB Legal",
+  title: "Marketing jurídico para despachos de abogados",
   description:
-    "Marketing digital ejecutado para despachos medianos: SEO, Google Ads, LinkedIn, email y web. Con atribución real al cliente firmado, no a leads que nunca llaman.",
+    "Marketing jurídico ejecutado: SEO, Google Ads, LinkedIn, email y web para despachos medianos. Atribución real al cliente firmado, desde 2.500 €/mes.",
   alternates: { canonical: "/servicios/marketing-juridico/" },
+  openGraph: {
+    title: "Marketing jurídico para despachos · TFB Legal",
+    description:
+      "SEO, Google Ads, LinkedIn, email y web para despachos medianos. Con atribución real al cliente firmado.",
+    url: "/servicios/marketing-juridico/",
+    type: "website",
+    locale: "es_ES",
+    siteName: "TFB Legal",
+  },
 };
 
 export default function MarketingJuridicoPage() {
   return (
     <>
+      <OrganizationSchema />
+      <BreadcrumbSchema
+        items={[
+          { name: "Inicio", url: "/" },
+          { name: "Servicios", url: "/servicios/" },
+          { name: "Marketing jurídico", url: "/servicios/marketing-juridico/" },
+        ]}
+      />
+      <ServiceSchema
+        name="Marketing jurídico para despachos"
+        slug="marketing-juridico"
+        serviceType="Marketing digital para despachos de abogados"
+        description="SEO, Google Ads, LinkedIn, email y web para despachos medianos. Ejecución operativa con atribución real al cliente firmado."
+      />
+      <FAQSchema
+        questions={[
+          { q: "¿Cuánto cuesta el marketing para un despacho en España?", a: "Retainer medio entre 800 y 2.500 € al mes para un despacho mediano, según scope. Google Ads aparte como inversión directa del despacho." },
+          { q: "¿Cuánto tarda el SEO en traer resultados?", a: "Entre 4 y 6 meses para empezar a rankear top 10 en keywords competitivas. Entre 9 y 12 meses para top 3 consistente." },
+          { q: "¿Trabajan con despachos fuera de Madrid y Barcelona?", a: "Sí. Uno de nuestros casos más sólidos es Orejas Abogados en Oviedo, que posiciona en toda Asturias y a nivel nacional." },
+          { q: "¿Trabajan en México o Argentina?", a: "Sí, con estructura distinta. En México el eje principal es IA aplicada al despacho; en Argentina el canal es LinkedIn + eventos, no SEO." },
+          { q: "¿Qué pasa si ya tengo agencia?", a: "Hacemos primero un diagnóstico sin tocar nada. Si la agencia actual funciona, te lo decimos y no cobramos consultoría puente." },
+        ]}
+      />
       <SiteHeader />
 
       <div className="band-inner">

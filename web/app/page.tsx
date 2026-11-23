@@ -1,10 +1,31 @@
+import type { Metadata } from "next";
 import Interactions from "./components/Interactions";
 import SiteHeader from "./components/SiteHeader";
 import SiteFooter from "./components/SiteFooter";
+import { OrganizationSchema, WebSiteSchema, FAQSchema } from "./components/Schema";
+
+export const metadata: Metadata = {
+  title: "Marketing para abogados · TFB Legal",
+  description:
+    "Marketing, consultoría estratégica, formación y speaker para despachos de abogados medianos. España, México y Argentina. Diagnóstico inicial sin coste.",
+  alternates: { canonical: "/" },
+  openGraph: {
+    title: "Marketing para abogados · TFB Legal",
+    description:
+      "Consultoría de crecimiento para despachos medianos: marketing jurídico, consultoría, formación y speaker. Ejecución real.",
+    url: "/",
+    type: "website",
+    locale: "es_ES",
+    siteName: "TFB Legal",
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "TFB Legal" }],
+  },
+};
 
 export default function Home() {
   return (
     <>
+      <OrganizationSchema />
+      <WebSiteSchema />
       <SiteHeader />
 
       {/* HERO compacto */}
