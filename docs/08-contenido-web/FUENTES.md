@@ -122,7 +122,7 @@ Gonzalo autorizó ese mismo día, vía Neo, usar «los casos los que vea en TFB�
 - Datos usados de la ficha (sin redondear): Leticia Montalvo y Mónica Usón; ICADE; colegiadas en Madrid, Barcelona y San Sebastián; 5,0 sobre 5 en Google, con 20 valoraciones; +800 % de tráfico orgánico en el sitio web; primera página y tabla de posiciones de septiembre 2026 (concurso de acreedores Madrid, 1, 260; cuánto dura un concurso de acreedores, 1ª página, 590; me pueden embargar con concurso de acreedores, 1ª página, 90; gestores concursales, 1, 170); transcripción de ChatGPT con la pregunta publicada y Paseo de la Castellana 179.
 - También aparece un resumen en https://thefunnelbox.com/crm-con-ia/despacho-de-abogados (consulta del mismo día). No se usaron de esa página las etiquetas «Nacional / referencia del sector», más fuertes que la card.
 
-**No usado, aunque está en thefunnelbox.com:** el artículo https://thefunnelbox.com/blog/marketing-para-abogados (fecha visible: 21 jul 2026) publica, para este despacho, «el resultado en doce meses», «el tráfico orgánico se multiplicó por más de quince, con un pico de veinte veces en marzo de 2026» y «la posición media pasó de 28,4 —página 3— a moverse dentro de la primera página de Google», con curva en base 100 desde abril 2025. Eso no coincide con el «+800 % de tráfico orgánico» de la ficha del caso (el +800 % es un múltiplo distinto). En la página 12 se sigue la ficha. El punto queda en `INDICE.md` por si Gonzalo quiere incorporar esas cifras aparte, citando esa URL.
+**No usado, aunque está en thefunnelbox.com:** el artículo https://thefunnelbox.com/blog/marketing-para-abogados (fecha visible: 21 jul 2026) publica, para este despacho, «el resultado en doce meses», «el tráfico orgánico se multiplicó por más de quince, con un pico de veinte veces en marzo de 2026» y «la posición media pasó de 28,4 —página 3— a moverse dentro de la primera página de Google», con curva en base 100 desde abril 2025. Eso no coincide con el «+800 % de tráfico orgánico» de la ficha del caso (el +800 % es un múltiplo distinto). En la página 12 se sigue solo la ficha publicada. Estas cifras del artículo quedan aquí como nota de fuente no usada.
 
 **No usado, de la versión descartada del speaker:** «0 € en anuncios» y «+800 % en 12 meses». El +800 % sí está en la ficha, pero sin el plazo de 12 meses. La card habla de publicidad digital, así que «0 € en anuncios» no coincide con lo publicado.
 
@@ -136,12 +136,6 @@ Gonzalo autorizó ese mismo día, vía Neo, usar «los casos los que vea en TFB�
 
 **No usado, de la versión descartada del speaker:** +340 % de tráfico orgánico en 12 meses; Top 3 en Google en Asturias; más de 12 consultas nuevas por semana. No aparecen en las páginas publicadas. Tampoco se nombra a José Luis Orejas en esas páginas.
 
-### M20 / Pedro Miralles
-
-- Card en https://thefunnelbox.com/casos-de-exito (título: Pedro Miralles; etiqueta: Abogados — Segunda Oportunidad; cita «Se dispararon las ventas, los contactos, y el proyecto está yendo fenomenal»; cuerpo: despacho de Abogados Murcia Segunda Oportunidad de Pedro García; en 6 meses, un alcance que lo llevó a ser la referencia en su ciudad).
-- Artículo: https://thefunnelbox.com/blog/caso-de-exito-m20 (fecha visible: 19 sept 2025). Presenta M20 como despacho en Murcia, fundador Pedro Miralles; auditoría; primera fase de captación; rediseño web, posicionamiento y procesos de cierre; lista de servicios (incluye «Re diseño de página web», así escrito). No publica porcentajes ni un número de consultas.
-- Discrepancia de nombre (Pedro Miralles / Pedro García) se deja publicada como está, sin unificarla.
-
 ### Otros casos en /casos-de-exito, no incluidos en el grid de esta web
 
 B&W Foto Video, Taxcom Advisors (despacho contable, Ciudad de México; 756 leads en 2 años, ×17 de tráfico orgánico, +800 % leads por trimestre, pág. 1 para «despacho contable»), Kete · Singular Interiors, Merlos & Caraza, Dr. Merlos Capilar. No son despachos de abogados.
@@ -152,7 +146,7 @@ B&W Foto Video, Taxcom Advisors (despacho contable, Ciudad de México; 756 leads
 
 - «+100 proyectos», «+80 con IA», «5 empresas fundadas»: brochure LGS y speaker anterior o descartado; retirados del speaker v3; el criterio de Gonzalo pide no poner conteo de empresas ni inventar cifras.
 - Cifras de la versión descartada del speaker que no coinciden con thefunnelbox.com: +340 %, Top 3, más de 12 consultas por semana, 0 € en anuncios, y el plazo de 12 meses pegado al +800 %. Las miniaturas de `fotos/descartado-casos/` no se publican.
-- Las cifras del artículo de marketing-para-abogados sobre Gestores Concursales (×15, pico de veinte veces, posición media 28,4), hasta que se decida si se citan aparte. Ver la sección de casos, más arriba.
+- Las cifras del artículo de marketing-para-abogados sobre Gestores Concursales (×15, pico de veinte veces, posición media 28,4): están publicadas en esa URL, no coinciden con el +800 % de la ficha y no se usan en la página 12. Quedan como nota de fuente no usada, más arriba.
 - Testimonios de Google citados en el speaker y en /equipo, hasta que Gonzalo diga cuáles pueden ir en esta web.
 - «Implementación en 2-4 semanas», «sin permanencia» y el calculador de horas o euros de https://thefunnelbox.com/sistema-despachos-abogados/, como promesa de esta web.
 - Rangos de precio del benchmark, hasta que exista el PDF aprobado.

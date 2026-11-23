@@ -2,9 +2,9 @@
 
 - **Path:** `/casos/`
 - **Meta title:** Casos · Despachos acompañados por TFB Legal
-- **Meta description:** Gestores Concursales, Orejas Abogados y M20. Los datos de esta página son los publicados en thefunnelbox.com, sin redondear.
+- **Meta description:** Gestores Concursales y Orejas Abogados, con los datos publicados en thefunnelbox.com y el OK de Gonzalo.
 
-> **Nota para Iris:** Gonzalo autorizó, el 23/11/2026 vía Neo, usar los casos publicados en thefunnelbox.com. Fuente de las fichas: las URLs de `FUENTES.md`, consultadas el 23/11/2026. No uses cifras de `speaker-pdf/descartado-con-casos/` ni de `fotos/descartado-casos/` si no coinciden con esas páginas (no uses +340 %, «Top 3 en Google», «más de 12 consultas por semana» ni «0 € en anuncios»). Taxcom Advisors está en /casos-de-exito, pero es un despacho contable, no de abogados: no lo pongas en este grid.
+> **Nota para Iris:** Gestores Concursales y Orejas Abogados están aprobados (decisión de Gonzalo, 23/11/2026, vía Neo), con los datos de thefunnelbox.com. Orejas se muestra aunque el despacho sea de Asturias. Fuente: las URLs de `FUENTES.md`, consultadas el 23/11/2026. No uses cifras de `speaker-pdf/descartado-con-casos/` ni de `fotos/descartado-casos/` si no coinciden con esas páginas (no uses +340 %, «Top 3 en Google», «más de 12 consultas por semana» ni «0 € en anuncios»). Taxcom Advisors está en /casos-de-exito, pero es un despacho contable, no de abogados: no lo pongas en este grid. No indexar nada fuera del sitemap.
 
 ---
 
@@ -14,7 +14,7 @@
 
 **Cuerpo:**
 
-Estos son los casos de despachos de abogados que The Funnel Box tiene publicados en thefunnelbox.com. Los datos que verás aquí están tomados de esas páginas, tal como figuran.
+Los casos de esta web son Gestores Concursales y Orejas Abogados. Los datos están tomados de thefunnelbox.com, tal como figuran, y tienen el OK de Gonzalo.
 
 **CTA:** Agenda una consulta de 30 min → `/contacto/`
 
@@ -42,15 +42,6 @@ Estos son los casos de despachos de abogados que The Funnel Box tiene publicados
 - Cita de la ficha publicada: «Primera página de Google y ahora también recomendados por ChatGPT» (titular de la card en thefunnelbox.com/casos-de-exito; no es una cita firmada por un cliente).
 - CTA: Ver caso → `/casos/orj-orejas-abogados/`
 
-**Card 3:** M20 (Pedro Miralles)
-
-- Path: `/casos/m20-pedro-miralles/`
-- Etiqueta: Abogados - Segunda Oportunidad
-- Resumen: En thefunnelbox.com/casos-de-exito el caso aparece como Pedro Miralles y describe el despacho de Abogados Murcia Segunda Oportunidad de Pedro García: una estrategia de crecimiento integral que, en 6 meses, determinó un alcance que lo llevó a ser la referencia en su ciudad. El artículo del blog lo titula «Caso de éxito: M20» y presenta a Pedro Miralles como fundador.
-- Cita publicada: «Se dispararon las ventas, los contactos, y el proyecto está yendo fenomenal»
-- CTA: Ver caso → `/casos/m20-pedro-miralles/`
-
-> **Nota para Iris:** El slug de M20 no estaba en el sitemap Fase 1. La página propia se añade en esta entrega; si el sitemap no se actualiza, deja la card en el hub y no indexar `/casos/m20-pedro-miralles/` hasta que Iris lo incorpore. La discrepancia de nombre (Pedro Miralles / Pedro García) se deja visible: no la corrijas por tu cuenta. Ver `INDICE.md`.
 
 ---
 
