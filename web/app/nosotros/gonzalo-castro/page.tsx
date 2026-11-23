@@ -128,10 +128,11 @@ export default function GonzaloBioPage() {
               dirección estratégica.
             </p>
             <p>
-              En el sector legal trabajo con despachos como <Link href="/casos/gce-gestores-concursales/">Gestores
-              Concursales</Link> (concurso de acreedores, España) y <Link href="/casos/orj-orejas-abogados/">Orejas Abogados</Link> (Oviedo, reclamación de tarjetas revolving y
-              Ley de Segunda Oportunidad). En ambos casos partimos del diagnóstico y llegamos a la
-              ejecución operativa, sin delegar a un tercero.
+              En el sector legal vengo acompañando despachos desde The Funnel Box: concurso
+              de acreedores en España, SEO local en provincia y pilotos de IA aplicada al
+              despacho. En cada proyecto partimos del diagnóstico y llegamos a la ejecución
+              operativa, sin delegar a un tercero. Las referencias concretas están en{" "}
+              <Link href="/casos/">casos</Link>.
             </p>
             <p>
               No creo en los consultores que entregan un informe y desaparecen. Lo que recomendamos
@@ -180,28 +181,13 @@ export default function GonzaloBioPage() {
       <section className="band">
         <div className="band-inner">
           <div className="section-head">
-            <h2 className="section-title">Casos acompañados.</h2>
+            <h2 className="section-title">Experiencia en legal.</h2>
           </div>
-          <table className="casos-table">
-            <tbody>
-              <tr>
-                <td>
-                  <div className="caso-cliente">Gestores Concursales</div>
-                  <div className="caso-descr">Migración integral + SEO técnico + atribución CRM.</div>
-                </td>
-                <td className="hide-mobile"><span className="caso-chip">Concursal · ES</span></td>
-                <td><Link href="/casos/gce-gestores-concursales/" className="caso-link">Caso</Link></td>
-              </tr>
-              <tr>
-                <td>
-                  <div className="caso-cliente">Orejas Abogados</div>
-                  <div className="caso-descr">SEO local + Google Ads provincial + Meta Ads.</div>
-                </td>
-                <td className="hide-mobile"><span className="caso-chip">Civil · Oviedo</span></td>
-                <td><Link href="/casos/orj-orejas-abogados/" className="caso-link">Caso</Link></td>
-              </tr>
-            </tbody>
-          </table>
+          <p className="prose" style={{ maxWidth: "60ch" }}>
+            Proyectos acompañados en el sector legal desde The Funnel Box. Las referencias
+            concretas, con el detalle de qué se ejecutó en cada una, viven en{" "}
+            <Link href="/casos/">casos</Link>.
+          </p>
         </div>
       </section>
 

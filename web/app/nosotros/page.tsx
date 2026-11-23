@@ -75,7 +75,7 @@ export default function NosotrosHub() {
             </p>
             <ul className="service-includes">
               <li>10+ años dirigiendo proyectos de marketing para profesionales exigentes</li>
-              <li>Casos con despachos: GCE (concursal) y ORJ (civil Asturias)</li>
+              <li>Experiencia con despachos del sector legal vía The Funnel Box</li>
               <li>Experto en atribución end-to-end, CRM y automatización</li>
               <li>Speaker en marketing jurídico e IA</li>
               <li>Base en España · trabaja remoto con cliente internacional</li>

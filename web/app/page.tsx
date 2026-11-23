@@ -203,7 +203,7 @@ export default function Home() {
               <li>Marketing jurídico (ES / MX / AR)</li>
               <li>IA aplicada al despacho y al ejercicio del derecho</li>
               <li>Gestión y escalado de despachos medianos</li>
-              <li>Casos reales (GCE · ORJ · pilotos)</li>
+              <li>Experiencia real de ejecución en el sector legal</li>
               <li>Keynote 20–60 min · workshop opcional</li>
               <li>Material y slides propios, nunca enlatado</li>
             </ul>
@@ -230,81 +230,23 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CASOS como tabla editorial */}
+      {/* CASOS — bloque corto, nombres y detalle en /casos/ */}
       <section id="casos" className="band">
         <div className="band-inner">
           <div className="section-head">
             <h2 className="section-title">
-              Casos <em>— lo que ya hicimos.</em>
+              Experiencia <em>— en el sector legal.</em>
             </h2>
-            <span className="section-meta">3 casos · 2 live</span>
+            <span className="section-meta">Referencias de The Funnel Box</span>
           </div>
 
-          <table className="casos-table">
-            <thead>
-              <tr>
-                <th>Cliente</th>
-                <th className="hide-mobile">Qué hicimos</th>
-                <th className="hide-mobile">Sector</th>
-                <th></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  <div className="caso-cliente">Gestores Concursales</div>
-                  <div className="caso-descr">
-                    Migración WordPress → stack propio, SEO técnico y atribución de leads al CRM.
-                  </div>
-                </td>
-                <td className="hide-mobile">
-                  <span className="caso-chip">Web + SEO + CRM</span>
-                </td>
-                <td className="hide-mobile">
-                  <span className="caso-chip">Concursal · ES</span>
-                </td>
-                <td>
-                  <a href="/casos/gce-gestores-concursales/" className="caso-link">Caso</a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div className="caso-cliente">Orejas Abogados</div>
-                  <div className="caso-descr">
-                    SEO local + Google Ads provincial + Meta Ads para despacho fuera del eje
-                    Madrid–Barcelona.
-                  </div>
-                </td>
-                <td className="hide-mobile">
-                  <span className="caso-chip">SEO + Ads</span>
-                </td>
-                <td className="hide-mobile">
-                  <span className="caso-chip">Civil · Oviedo</span>
-                </td>
-                <td>
-                  <a href="/casos/orj-orejas-abogados/" className="caso-link">Caso</a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div className="caso-cliente">Piloto MX</div>
-                  <div className="caso-descr">
-                    IA aplicada al despacho fiscal (redacción asistida, automatización documental,
-                    CRM). Lanzamiento mes 13.
-                  </div>
-                </td>
-                <td className="hide-mobile">
-                  <span className="caso-chip">IA + CRM</span>
-                </td>
-                <td className="hide-mobile">
-                  <span className="caso-chip">Fiscal · CDMX</span>
-                </td>
-                <td>
-                  <span className="caso-link" style={{ color: "var(--muted-soft)" }}>Próximo</span>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <p className="service-for" style={{ maxWidth: "60ch", marginBottom: "clamp(24px, 3vw, 36px)" }}>
+            El equipo que forma TFB Legal viene ejecutando proyectos de marketing, SEO y
+            atribución CRM en el sector legal desde The Funnel Box: migraciones web, SEO
+            técnico, Google Ads provincial, Meta Ads, pilotos de IA aplicada al despacho.
+          </p>
+
+          <a href="/casos/" className="service-cta">Ver referencias en /casos</a>
         </div>
       </section>
 

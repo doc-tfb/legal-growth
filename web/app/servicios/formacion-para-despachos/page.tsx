@@ -168,8 +168,8 @@ export default function FormacionPage() {
             <div className="kv-row">
               <div className="kv-k">Gonzalo Castro</div>
               <div className="kv-v">
-                Canales, marketing, IA, atribución. Trae casos reales de ejecución (GCE, ORJ y
-                otros clientes de TFB).
+                Canales, marketing, IA, atribución. Trae ejemplos reales de ejecución
+                en el sector legal desde The Funnel Box.
               </div>
             </div>
             <div className="kv-row">

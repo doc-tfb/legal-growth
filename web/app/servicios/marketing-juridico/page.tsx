@@ -43,7 +43,7 @@ export default function MarketingJuridicoPage() {
         questions={[
           { q: "¿Cuánto cuesta el marketing para un despacho en España?", a: "Retainer medio entre 800 y 2.500 € al mes para un despacho mediano, según scope. Google Ads aparte como inversión directa del despacho." },
           { q: "¿Cuánto tarda el SEO en traer resultados?", a: "Entre 4 y 6 meses para empezar a rankear top 10 en keywords competitivas. Entre 9 y 12 meses para top 3 consistente." },
-          { q: "¿Trabajan con despachos fuera de Madrid y Barcelona?", a: "Sí. Uno de nuestros casos más sólidos es Orejas Abogados en Oviedo, que posiciona en toda Asturias y a nivel nacional." },
+          { q: "¿Trabajan con despachos fuera de Madrid y Barcelona?", a: "Sí. El equipo tiene proyectos activos en provincia desde The Funnel Box (SEO local + Google Ads provincial + Meta Ads). Ver referencias en /casos." },
           { q: "¿Trabajan en México o Argentina?", a: "Sí, con estructura distinta. En México el eje principal es IA aplicada al despacho; en Argentina el canal es LinkedIn + eventos, no SEO." },
           { q: "¿Qué pasa si ya tengo agencia?", a: "Hacemos primero un diagnóstico sin tocar nada. Si la agencia actual funciona, te lo decimos y no cobramos consultoría puente." },
         ]}
@@ -215,27 +215,15 @@ export default function MarketingJuridicoPage() {
       <section className="band soft-band">
         <div className="band-inner">
           <div className="section-head">
-            <h2 className="section-title">Caso relacionado</h2>
-            <span className="section-meta">1 de 3</span>
+            <h2 className="section-title">Referencias en el sector legal</h2>
+            <span className="section-meta">Vía The Funnel Box</span>
           </div>
-          <table className="casos-table">
-            <tbody>
-              <tr>
-                <td>
-                  <div className="caso-cliente">Gestores Concursales</div>
-                  <div className="caso-descr">
-                    Migración WordPress → stack propio, SEO técnico y atribución end-to-end de leads al
-                    CRM.
-                  </div>
-                </td>
-                <td className="hide-mobile"><span className="caso-chip">Web + SEO + CRM</span></td>
-                <td className="hide-mobile"><span className="caso-chip">Concursal · ES</span></td>
-                <td>
-                  <Link href="/casos/gce-gestores-concursales/" className="caso-link">Caso</Link>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <p className="prose" style={{ maxWidth: "60ch" }}>
+            Proyectos ejecutados por el equipo desde The Funnel Box en el sector legal:
+            migraciones web, SEO técnico, atribución end-to-end al CRM, Google Ads provincial
+            y Meta Ads. Las referencias concretas, con el detalle de qué se hizo en cada una,
+            están en <Link href="/casos/">casos</Link>.
+          </p>
         </div>
       </section>
 
@@ -268,8 +256,9 @@ export default function MarketingJuridicoPage() {
               <details>
                 <summary>¿Trabajan con despachos fuera de Madrid y Barcelona?</summary>
                 <div className="faq-a">
-                  Sí. Uno de nuestros casos más sólidos es Orejas Abogados en Oviedo, que posiciona
-                  en toda Asturias y a nivel nacional para un servicio específico.
+                  Sí. El equipo tiene proyectos activos en provincia desde The Funnel Box
+                  (SEO local + Google Ads provincial + Meta Ads). Ver referencias en{" "}
+                  <Link href="/casos/">casos</Link>.
                 </div>
               </details>
             </li>

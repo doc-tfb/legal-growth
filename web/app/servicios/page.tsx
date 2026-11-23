@@ -92,7 +92,7 @@ const SERVICES = [
       "Marketing jurídico (ES / MX / AR)",
       "IA aplicada al despacho y al ejercicio del derecho",
       "Gestión y escalado de despachos medianos",
-      "Casos reales (GCE · ORJ · pilotos)",
+      "Experiencia real de ejecución en el sector legal",
       "Keynote 20–60 min · workshop opcional",
       "Material y slides propios, nunca enlatado",
     ],
