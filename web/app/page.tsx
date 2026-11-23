@@ -6,377 +6,371 @@ export default function Home() {
   return (
     <>
       <div className="status-bar">
-        <strong>Borrador visual</strong>
-        <span>Copy provisorio y placeholders. Fotos, logos y testimonios los pasa Neo.</span>
+        <strong>Borrador operativo</strong>
+        <span>Copy y rangos sujetos a cambios</span>
       </div>
 
       <nav className="nav" id="nav">
         <div className="nav-row">
           <a href="#" className="brand">
-            TFB Legal
+            TFB <em>·</em> Legal
           </a>
           <div className="nav-links">
             <a href="#servicios">Servicios</a>
             <a href="#casos">Casos</a>
-            <a href="#nosotros">Nosotros</a>
+            <a href="#metodologia">Metodología</a>
             <a href="#journal">Journal</a>
+            <a href="#contacto">Contacto</a>
           </div>
-          <a href="#contacto" className="nav-cta">
-            Hablemos
-          </a>
+          <a href="#contacto" className="nav-cta">Agendar 30′</a>
         </div>
       </nav>
 
-      {/* HERO */}
-      <header className="hero band">
+      {/* HERO compacto */}
+      <header className="hero">
         <div className="band-inner">
-          <h1 className="hero-title">
-            Crecimiento <em>ejecutado</em>, no sugerido.
-          </h1>
-          <p className="hero-sub">
-            Consultoría para despachos de abogados medianos en España, México y Argentina.
-            Diagnosticamos, ejecutamos el marketing, formamos al equipo. Nada flota en estrategia.
-          </p>
-
-          <dl className="hero-meta">
+          <div className="hero-row">
             <div>
-              <dt>Dirigido por</dt>
+              <div className="eyebrow">Consultoría de crecimiento · 2026</div>
+              <h1 className="hero-title">
+                Marketing, consultoría y formación para despachos de abogados.
+              </h1>
+              <p className="hero-sub">
+                Cuatro servicios bajo una misma firma. Modelos claros, alcance definido, atribución
+                real al cliente firmado. Para despachos medianos en España, México y Argentina.
+              </p>
+              <div className="hero-actions">
+                <a href="#servicios" className="btn btn-primary btn-arrow">Ver servicios</a>
+                <a href="#contacto" className="btn btn-ghost">Agendar 30 minutos</a>
+              </div>
+              <ul className="chips" style={{ marginTop: "28px" }}>
+                <li className="chip"><span className="chip-dot"></span>España</li>
+                <li className="chip"><span className="chip-dot"></span>México</li>
+                <li className="chip"><span className="chip-dot"></span>Argentina</li>
+                <li className="chip">Despachos de 5–30 abogados</li>
+              </ul>
+            </div>
+            <dl className="hero-aside">
+              <dt>Dirigida por</dt>
               <dd>Gonzalo Castro &amp; Carla Fresch Pons</dd>
-            </div>
-            <div>
-              <dt>Para</dt>
-              <dd>Despachos de 5 a 30 abogados</dd>
-            </div>
-            <div>
-              <dt>Mercados</dt>
-              <dd>España · México · Argentina</dd>
-            </div>
-          </dl>
+              <dt>Impulsada por</dt>
+              <dd>The Funnel Box · Brandly</dd>
+              <dt>Operativa desde</dt>
+              <dd>2026</dd>
+            </dl>
+          </div>
         </div>
       </header>
 
-      {/* FIRMA */}
-      <section className="firma">
-        <div className="band-inner">
-          <p className="firma-quote">
-            La mayoría de las consultoras legales <em>diagnostican</em>. La mayoría de las agencias{" "}
-            <em>ejecutan</em>. Nosotros hacemos ambas.
-          </p>
-          <div className="firma-attr">— Una firma impulsada por The Funnel Box y Brandly</div>
-        </div>
-      </section>
-
-      {/* DIFERENCIADORES */}
-      <section className="diff band">
-        <div className="band-inner">
-          <div className="diff-item reveal">
-            <h2>
-              Ejecución, <em>no solo planes</em>.
-            </h2>
-            <p>
-              The Funnel Box opera por detrás. Si el diagnóstico dice que hay que posicionar en
-              Google, posicionamos. Si dice que hay que armar un CRM con atribución, lo armamos.
-            </p>
-          </div>
-          <div className="diff-item reveal">
-            <h2>
-              Carla <em>estuvo</em> del otro lado.
-            </h2>
-            <p>
-              Más de diez años en el Poder Judicial de Argentina. Entra a una reunión con un
-              socio-director como par, no como vendedora. Esa diferencia no se compra.
-            </p>
-          </div>
-          <div className="diff-item reveal">
-            <h2>
-              Tres mercados, <em>tres playbooks</em>.
-            </h2>
-            <p>
-              España empieza por marketing jurídico. México por IA aplicada al despacho. Argentina
-              por LinkedIn y eventos. Cada país con su propio eje de entrada.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* SERVICIOS */}
-      <section id="servicios" className="band" style={{ borderTop: "1px solid var(--line)" }}>
-        <div className="band-inner">
-          <h2 className="index-title reveal">Lo que hacemos cuando entramos a un despacho.</h2>
-
-          <ul className="services-list">
-            <li>
-              <a href="#" className="service-row reveal">
-                <h3 className="service-name">Marketing jurídico</h3>
-                <p className="service-desc">
-                  SEO, Google Ads, LinkedIn, email, web. Ejecución real, atribución al cliente
-                  firmado — no a leads que nunca llaman.
-                </p>
-                <span className="service-arrow" aria-hidden="true">
-                  →
-                </span>
-              </a>
-            </li>
-            <li>
-              <a href="#" className="service-row reveal">
-                <h3 className="service-name">Consultoría estratégica</h3>
-                <p className="service-desc">
-                  Diagnóstico de crecimiento, palancas, pricing, rentabilidad por cliente,
-                  estructura comercial. Para socios-directores saturados.
-                </p>
-                <span className="service-arrow" aria-hidden="true">
-                  →
-                </span>
-              </a>
-            </li>
-            <li>
-              <a href="#" className="service-row reveal">
-                <h3 className="service-name">Formación</h3>
-                <p className="service-desc">
-                  In-company o programa abierto con partner académico. Contenido práctico que la
-                  plantilla usa el lunes por la mañana.
-                </p>
-                <span className="service-arrow" aria-hidden="true">
-                  →
-                </span>
-              </a>
-            </li>
-            <li>
-              <a href="#" className="service-row reveal">
-                <h3 className="service-name">Speaker</h3>
-                <p className="service-desc">
-                  Keynotes y ponencias en congresos legaltech, programas académicos y eventos
-                  corporativos. Material propio, nunca enlatado.
-                </p>
-                <span className="service-arrow" aria-hidden="true">
-                  →
-                </span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      {/* CASO destacado */}
-      <section id="casos" className="caso dark-band band">
-        <div className="band-inner">
-          <div>
-            <div className="caso-label reveal">Un caso</div>
-            <h2 className="caso-headline reveal">
-              De WordPress <em>legacy</em> a un stack con atribución real.
+      <section id="servicios" className="services">
+        <div className="band-inner" style={{ paddingTop: "clamp(48px, 6vw, 72px)", paddingBottom: "0" }}>
+          <div className="section-head">
+            <h2 className="section-title">
+              Servicios <em>— cuatro frentes, un solo responsable.</em>
             </h2>
-          </div>
-          <div className="caso-body reveal">
-            <p>
-              Gestores Concursales, despacho español especializado en concurso de acreedores.
-              Llegaba con un WordPress lento, sin atribución de leads y con un pipeline que
-              terminaba en un Excel.
-            </p>
-            <p>
-              Salió con un stack propio, SEO técnico al día y cada contacto llegando al CRM con
-              origen. Cifras finales pendientes de consolidar a seis meses post-cutover.
-            </p>
-            <a href="#" className="caso-link">
-              Leer el caso completo →
-            </a>
+            <span className="section-meta">4 servicios</span>
           </div>
         </div>
-      </section>
 
-      {/* Casos secundarios */}
-      <section className="casos-sec band">
-        <div className="band-inner">
-          <article className="reveal">
-            <div className="caso-sec-label">Orejas Abogados · Oviedo</div>
-            <h3 className="caso-sec-name">
-              Posicionar a un despacho fuera del eje Madrid–Barcelona.
-            </h3>
-            <p className="caso-sec-desc">
-              SEO local, Google Ads provincial y Meta Ads. Prueba de que el modelo funciona también
-              cuando el despacho no está en capital.
+        <div className="services-grid">
+          <article className="service reveal">
+            <div className="service-head">
+              <h3 className="service-name">Marketing jurídico</h3>
+              <span className="service-tag">Retainer</span>
+            </div>
+            <p className="service-for">
+              Para despachos que necesitan generar leads cualificados de forma predecible y dejar de
+              depender del boca a boca.
             </p>
+            <ul className="service-includes">
+              <li>SEO técnico y de contenido (6 pillars + cluster)</li>
+              <li>Google Ads con landings dedicadas por servicio</li>
+              <li>LinkedIn Ads + outreach manual al ICP</li>
+              <li>Email marketing segmentado + nurturing</li>
+              <li>Web optimizada (Core Web Vitals + CRO)</li>
+              <li>Atribución al CRM: cada lead con origen</li>
+            </ul>
+            <dl className="service-specs">
+              <div className="spec-row">
+                <dt className="spec-k">Stack</dt>
+                <dd className="spec-v">GA4 · HubSpot · Sanity · Vercel</dd>
+              </div>
+              <div className="spec-row">
+                <dt className="spec-k">Modelo</dt>
+                <dd className="spec-v">Setup + retainer mensual</dd>
+              </div>
+              <div className="spec-row">
+                <dt className="spec-k">Inversión</dt>
+                <dd className="spec-v">Desde 2.500 €/mes</dd>
+              </div>
+              <div className="spec-row">
+                <dt className="spec-k">Primeros resultados</dt>
+                <dd className="spec-v">90 días</dd>
+              </div>
+            </dl>
+            <a href="#contacto" className="service-cta">Hablar de este servicio</a>
           </article>
-          <article className="reveal">
-            <div className="caso-sec-label">Próximamente · México</div>
-            <h3 className="caso-sec-name">
-              Piloto de IA aplicada al despacho fiscal en CDMX.
-            </h3>
-            <p className="caso-sec-desc">
-              IA para redacción asistida, automatización documental y CRM. Lanzamiento previsto para
-              mes 13 del plan.
+
+          <article className="service reveal">
+            <div className="service-head">
+              <h3 className="service-name">Consultoría estratégica</h3>
+              <span className="service-tag">Proyecto</span>
+            </div>
+            <p className="service-for">
+              Para socios-directores saturados: diagnóstico de crecimiento, pricing, estructura
+              comercial y palancas priorizadas.
             </p>
+            <ul className="service-includes">
+              <li>Análisis de rentabilidad por cliente y por servicio</li>
+              <li>Revisión del pricing actual y propuesta nueva</li>
+              <li>Diagnóstico del pipeline comercial</li>
+              <li>Mapa de palancas priorizadas (impacto × esfuerzo)</li>
+              <li>Plan trimestral con KPIs y responsables</li>
+              <li>Opcional: 3 meses de acompañamiento quincenal</li>
+            </ul>
+            <dl className="service-specs">
+              <div className="spec-row">
+                <dt className="spec-k">Entregable</dt>
+                <dd className="spec-v">Documento + plan + KPIs</dd>
+              </div>
+              <div className="spec-row">
+                <dt className="spec-k">Modelo</dt>
+                <dd className="spec-v">Proyecto cerrado</dd>
+              </div>
+              <div className="spec-row">
+                <dt className="spec-k">Inversión</dt>
+                <dd className="spec-v">Desde 4.500 €</dd>
+              </div>
+              <div className="spec-row">
+                <dt className="spec-k">Duración</dt>
+                <dd className="spec-v">30 días</dd>
+              </div>
+            </dl>
+            <a href="#contacto" className="service-cta">Hablar de este servicio</a>
+          </article>
+
+          <article className="service reveal">
+            <div className="service-head">
+              <h3 className="service-name">Formación</h3>
+              <span className="service-tag">In-company · Abierto</span>
+            </div>
+            <p className="service-for">
+              Para despachos que quieren profesionalizar al equipo en marketing, gestión del
+              despacho e IA aplicada.
+            </p>
+            <ul className="service-includes">
+              <li>Posicionamiento y marca personal del socio</li>
+              <li>LinkedIn para abogados: contenido + outreach</li>
+              <li>IA aplicada al despacho: redacción, análisis, CRM</li>
+              <li>Pricing y negociación comercial</li>
+              <li>Formato in-company cerrado (8–20 personas)</li>
+              <li>O programa abierto con partner académico</li>
+            </ul>
+            <dl className="service-specs">
+              <div className="spec-row">
+                <dt className="spec-k">Formato</dt>
+                <dd className="spec-v">1 día intensivo · 4 sesiones de 2h</dd>
+              </div>
+              <div className="spec-row">
+                <dt className="spec-k">Modelo</dt>
+                <dd className="spec-v">Fee cerrado por programa</dd>
+              </div>
+              <div className="spec-row">
+                <dt className="spec-k">Inversión</dt>
+                <dd className="spec-v">Desde 3.500 €</dd>
+              </div>
+              <div className="spec-row">
+                <dt className="spec-k">Material</dt>
+                <dd className="spec-v">Propio + plantillas</dd>
+              </div>
+            </dl>
+            <a href="#contacto" className="service-cta">Hablar de este servicio</a>
+          </article>
+
+          <article className="service reveal">
+            <div className="service-head">
+              <h3 className="service-name">Speaker</h3>
+              <span className="service-tag">Evento</span>
+            </div>
+            <p className="service-for">
+              Keynotes y ponencias en congresos legaltech, programas académicos y eventos
+              corporativos.
+            </p>
+            <ul className="service-includes">
+              <li>Marketing jurídico (ES / MX / AR)</li>
+              <li>IA aplicada al despacho y al ejercicio del derecho</li>
+              <li>Gestión y escalado de despachos medianos</li>
+              <li>Casos reales (GCE · ORJ · pilotos)</li>
+              <li>Keynote 20–60 min · workshop opcional</li>
+              <li>Material y slides propios, nunca enlatado</li>
+            </ul>
+            <dl className="service-specs">
+              <div className="spec-row">
+                <dt className="spec-k">Idiomas</dt>
+                <dd className="spec-v">Español · Inglés</dd>
+              </div>
+              <div className="spec-row">
+                <dt className="spec-k">Formato</dt>
+                <dd className="spec-v">Presencial · Online · Híbrido</dd>
+              </div>
+              <div className="spec-row">
+                <dt className="spec-k">Fee</dt>
+                <dd className="spec-v">A consultar</dd>
+              </div>
+              <div className="spec-row">
+                <dt className="spec-k">Agenda</dt>
+                <dd className="spec-v">Con 30 días de anticipación</dd>
+              </div>
+            </dl>
+            <a href="#contacto" className="service-cta">Hablar de este servicio</a>
           </article>
         </div>
       </section>
 
-      {/* VALORACIONES */}
-      <section className="valoraciones band">
+      {/* CASOS como tabla editorial */}
+      <section id="casos" className="band">
         <div className="band-inner">
-          <h2 className="index-title reveal">
-            Lo que dicen los <em>despachos</em> con los que trabajamos.
-          </h2>
-
-          <div className="valoraciones-grid">
-            <article className="valoracion reveal">
-              <p className="valoracion-pending">
-                Testimonio pendiente de aprobación con Mónica Usón y Leticia Montalvo. Se publica en
-                cuanto confirmen la cita final.
-              </p>
-              <div className="valoracion-attr">
-                <div className="valoracion-mark">GC</div>
-                <div className="valoracion-attr-info">
-                  <div className="valoracion-attr-name">Gestores Concursales</div>
-                  <div className="valoracion-attr-role">Despacho concursal · España</div>
-                </div>
-              </div>
-            </article>
-
-            <article className="valoracion reveal">
-              <p className="valoracion-pending">
-                Testimonio pendiente de aprobación con Orejas Abogados. Se publica en cuanto
-                confirmen la cita final.
-              </p>
-              <div className="valoracion-attr">
-                <div className="valoracion-mark">OA</div>
-                <div className="valoracion-attr-info">
-                  <div className="valoracion-attr-name">Orejas Abogados</div>
-                  <div className="valoracion-attr-role">Despacho mediano · Oviedo</div>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      {/* FUNDADORES */}
-      <section
-        id="nosotros"
-        className="fundadores band"
-        style={{ borderTop: "1px solid var(--line)" }}
-      >
-        <div className="band-inner">
-          <h2 className="index-title reveal">
-            La firma la ponen <em>dos personas</em>.
-          </h2>
-
-          <article className="fundador reveal">
-            <div
-              className="fundador-img"
-              aria-label="Retrato de Gonzalo Castro — pendiente de sesión fotográfica"
-            >
-              <div className="fundador-img-mono">
-                <span>GC</span>
-              </div>
-              <div className="fundador-img-top">Retrato · pendiente</div>
-              <div className="fundador-img-bottom">
-                <span>Gonzalo Castro</span>
-                <span>2027</span>
-              </div>
-            </div>
-            <div className="fundador-info">
-              <h3 className="fundador-name">Gonzalo Castro</h3>
-              <p className="fundador-role">Dirección · Ejecución · Speaker</p>
-              <div className="fundador-bio">
-                <p>
-                  Director y fundador de The Funnel Box, consultora de marketing digital e IA con
-                  base en España. Trabaja con clientes internacionales en captación, automatización
-                  y optimización.
-                </p>
-                <p>
-                  Casos relevantes con despachos: Gestores Concursales (España) y Orejas Abogados
-                  (Oviedo). Experiencia transversal con Google Ads, Meta Ads, HubSpot, Sanity,
-                  Vercel.
-                </p>
-              </div>
-              <div className="fundador-links">
-                <a href="#">LinkedIn</a>
-                <a href="mailto:gonzalo@thefunnelbox.com">Email</a>
-              </div>
-            </div>
-          </article>
-
-          <article className="fundador flip reveal">
-            <div
-              className="fundador-img"
-              aria-label="Retrato de Carla Fresch Pons — pendiente de sesión fotográfica"
-            >
-              <div className="fundador-img-mono">
-                <span>CF</span>
-              </div>
-              <div className="fundador-img-top">Retrato · pendiente</div>
-              <div className="fundador-img-bottom">
-                <span>Carla Fresch Pons</span>
-                <span>2027</span>
-              </div>
-            </div>
-            <div className="fundador-info">
-              <h3 className="fundador-name">Carla Fresch Pons</h3>
-              <p className="fundador-role">Consultoría · Credibilidad gremial · AR</p>
-              <div className="fundador-bio">
-                <p>
-                  Más de diez años en el Poder Judicial de Argentina. Hoy ayuda a estudios y
-                  despachos a crecer desde adentro.
-                </p>
-                <p>
-                  Cuando entra a una reunión con un socio-director, la conversación ocurre entre
-                  pares. Esa diferencia estructural es lo que permite entrar a despachos premium que
-                  normalmente rechazan a agencias externas.
-                </p>
-              </div>
-              <div className="fundador-links">
-                <a href="#">LinkedIn</a>
-                <a href="#">Perfil completo</a>
-              </div>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      {/* LEAD MAGNET */}
-      <section className="magnet soft-band band">
-        <div className="band-inner">
-          <div className="reveal">
-            <h2 className="magnet-title">
-              Benchmark de precios <em>2026</em>.
+          <div className="section-head">
+            <h2 className="section-title">
+              Casos <em>— lo que ya hicimos.</em>
             </h2>
-            <p className="magnet-desc">
-              Qué están pagando los despachos medianos en España por SEO, Google Ads, LinkedIn y
-              web, ahora mismo. Rangos reales, por tamaño de firma. 22 páginas en PDF.
-            </p>
+            <span className="section-meta">3 casos · 2 live</span>
           </div>
-          <form className="magnet-form reveal" id="magnetForm">
-            <input
-              id="magnetEmail"
-              type="email"
-              required
-              placeholder="Email del despacho"
-              autoComplete="email"
-            />
-            <input
-              id="magnetFirm"
-              type="text"
-              placeholder="Nombre del despacho (opcional)"
-              autoComplete="organization"
-            />
-            <button type="submit">Enviarme el benchmark</button>
-            <div className="magnet-fine">
-              Un email, el PDF directo a tu bandeja. Puedes darte de baja cuando quieras.
+
+          <table className="casos-table">
+            <thead>
+              <tr>
+                <th>Cliente</th>
+                <th className="hide-mobile">Qué hicimos</th>
+                <th className="hide-mobile">Sector</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div className="caso-cliente">Gestores Concursales</div>
+                  <div className="caso-descr">
+                    Migración WordPress → stack propio, SEO técnico y atribución de leads al CRM.
+                  </div>
+                </td>
+                <td className="hide-mobile">
+                  <span className="caso-chip">Web + SEO + CRM</span>
+                </td>
+                <td className="hide-mobile">
+                  <span className="caso-chip">Concursal · ES</span>
+                </td>
+                <td>
+                  <a href="#" className="caso-link">Caso</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div className="caso-cliente">Orejas Abogados</div>
+                  <div className="caso-descr">
+                    SEO local + Google Ads provincial + Meta Ads para despacho fuera del eje
+                    Madrid–Barcelona.
+                  </div>
+                </td>
+                <td className="hide-mobile">
+                  <span className="caso-chip">SEO + Ads</span>
+                </td>
+                <td className="hide-mobile">
+                  <span className="caso-chip">Civil · Oviedo</span>
+                </td>
+                <td>
+                  <a href="#" className="caso-link">Caso</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div className="caso-cliente">Piloto MX</div>
+                  <div className="caso-descr">
+                    IA aplicada al despacho fiscal (redacción asistida, automatización documental,
+                    CRM). Lanzamiento mes 13.
+                  </div>
+                </td>
+                <td className="hide-mobile">
+                  <span className="caso-chip">IA + CRM</span>
+                </td>
+                <td className="hide-mobile">
+                  <span className="caso-chip">Fiscal · CDMX</span>
+                </td>
+                <td>
+                  <span className="caso-link" style={{ color: "var(--muted-soft)" }}>Próximo</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      {/* METODOLOGÍA — 4 pasos reales (secuencia legítima) */}
+      <section id="metodologia" className="band soft-band">
+        <div className="band-inner">
+          <div className="section-head">
+            <h2 className="section-title">
+              Cómo <em>entramos a un despacho.</em>
+            </h2>
+            <span className="section-meta">4 fases · 120 días</span>
+          </div>
+
+          <div className="steps">
+            <div className="step">
+              <span className="step-num">01</span>
+              <h3 className="step-name">Diagnóstico</h3>
+              <p className="step-descr">
+                Revisamos pipeline actual, cifras, canales, equipo y pricing. Entendemos qué
+                frena el crecimiento antes de proponer nada.
+              </p>
+              <div className="step-time">30 días</div>
             </div>
-          </form>
+            <div className="step">
+              <span className="step-num">02</span>
+              <h3 className="step-name">Plan</h3>
+              <p className="step-descr">
+                Un documento con 3 palancas priorizadas, plan trimestral, KPIs y responsables.
+                Validado con el socio-director antes de ejecutar.
+              </p>
+              <div className="step-time">7 días</div>
+            </div>
+            <div className="step">
+              <span className="step-num">03</span>
+              <h3 className="step-name">Ejecución</h3>
+              <p className="step-descr">
+                The Funnel Box opera por detrás: SEO, Ads, LinkedIn, web, CRM. Reporting
+                mensual con número de leads por canal y origen.
+              </p>
+              <div className="step-time">90 días</div>
+            </div>
+            <div className="step">
+              <span className="step-num">04</span>
+              <h3 className="step-name">Transferencia</h3>
+              <p className="step-descr">
+                Dejamos plantillas, playbooks y formación al equipo del despacho. Si queremos
+                seguir, lo decidimos juntos con datos.
+              </p>
+              <div className="step-time">Continuo</div>
+            </div>
+          </div>
         </div>
       </section>
 
       {/* JOURNAL */}
-      <section id="journal" className="band" style={{ borderTop: "1px solid var(--line)" }}>
+      <section id="journal" className="band">
         <div className="band-inner">
-          <h2 className="journal-title reveal">
-            Lo que escribimos, <em>lo escribimos.</em>
-          </h2>
+          <div className="section-head">
+            <h2 className="section-title">
+              Journal <em>— lo que escribimos.</em>
+            </h2>
+            <span className="section-meta">Semanal</span>
+          </div>
 
           <ul className="journal-list">
             <li>
-              <a href="#" className="journal-entry reveal">
-                <span className="journal-date">Noviembre 2026</span>
+              <a href="#" className="journal-entry">
+                <span className="journal-date">Nov 2026 · Marketing</span>
                 <h3 className="journal-title-entry">
                   Cómo armar un plan de marketing anual para un despacho de 15 personas.
                 </h3>
@@ -384,8 +378,8 @@ export default function Home() {
               </a>
             </li>
             <li>
-              <a href="#" className="journal-entry reveal">
-                <span className="journal-date">Noviembre 2026</span>
+              <a href="#" className="journal-entry">
+                <span className="journal-date">Nov 2026 · Gestión</span>
                 <h3 className="journal-title-entry">
                   El socio-director como cuello de botella: señales y qué hacer.
                 </h3>
@@ -393,10 +387,19 @@ export default function Home() {
               </a>
             </li>
             <li>
-              <a href="#" className="journal-entry reveal">
-                <span className="journal-date">Octubre 2026</span>
+              <a href="#" className="journal-entry">
+                <span className="journal-date">Oct 2026 · IA</span>
                 <h3 className="journal-title-entry">
                   IA para despachos en 2026: qué hace realmente y qué no.
+                </h3>
+                <span className="journal-author">Gonzalo Castro</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" className="journal-entry">
+                <span className="journal-date">Oct 2026 · SEO</span>
+                <h3 className="journal-title-entry">
+                  SEO local para despachos por ciudad: cómo rankear en provincia.
                 </h3>
                 <span className="journal-author">Gonzalo Castro</span>
               </a>
@@ -408,38 +411,54 @@ export default function Home() {
       {/* IMPULSADA POR */}
       <section className="promoters">
         <div className="band-inner">
-          <div className="promoters-label">Impulsada por</div>
           <div className="promoters-row">
-            <div className="promoter">
-              <div className="promoter-logo">
-                the funnel <em>box</em>
-              </div>
-              <div className="promoter-role">Brazo ejecutor · Marketing e IA</div>
-            </div>
-            <div className="promoter-sep" aria-hidden="true"></div>
-            <div className="promoter">
-              <div className="promoter-logo">Brandly</div>
-              <div className="promoter-role">Co-promotor · Partner estratégico</div>
-            </div>
+            <span className="promoters-label">Impulsada por</span>
+            <span className="promoter">the funnel <em>box</em></span>
+            <span className="promoter">Brandly</span>
           </div>
         </div>
       </section>
 
-      {/* CIERRE */}
-      <section id="contacto" className="dark-band band">
+      {/* CONTACTO (sin fotos, con bios breves) */}
+      <section id="contacto" className="band dark-band">
         <div className="band-inner">
-          <h2 className="closing-h">
-            Treinta minutos.
-            <br />
-            Sin proposal plantilla.
-          </h2>
-          <p className="closing-p">
-            Contás dónde está el despacho. Miramos cifras reales. Salís con tres palancas
-            accionables. Si hay encaje, armamos propuesta. Si no, se queda con el diagnóstico.
-          </p>
-          <a href="#" className="closing-cta">
-            Agendar la consulta
-          </a>
+          <div className="contact-grid">
+            <div className="contact-main">
+              <div className="eyebrow" style={{ color: "var(--invert-muted)" }}>Contacto</div>
+              <h2>Treinta minutos. Diagnóstico inicial sin coste.</h2>
+              <p>
+                Nos contás dónde está el despacho. Miramos cifras reales. Salís con tres palancas
+                accionables. Si hay encaje, armamos propuesta.
+              </p>
+              <div className="contact-actions">
+                <a href="#" className="btn btn-invert-primary btn-arrow">Agendar 30 minutos</a>
+                <a
+                  href="mailto:gonzalo@thefunnelbox.com"
+                  className="btn btn-invert-ghost"
+                >
+                  gonzalo@thefunnelbox.com
+                </a>
+              </div>
+            </div>
+            <div className="contact-sig">
+              <div className="sig-row">
+                <div className="sig-name">Gonzalo Castro</div>
+                <div className="sig-role">
+                  Director y fundador de The Funnel Box. Marketing jurídico, IA y escalado. Base
+                  en España.
+                </div>
+                <a href="#" className="sig-link">LinkedIn</a>
+              </div>
+              <div className="sig-row">
+                <div className="sig-name">Carla Fresch Pons</div>
+                <div className="sig-role">
+                  Más de diez años en el Poder Judicial de Argentina. Consultoría estratégica y
+                  mercado AR.
+                </div>
+                <a href="#" className="sig-link">LinkedIn</a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -450,49 +469,43 @@ export default function Home() {
             <div>
               <h3 className="footer-brand-name">TFB Legal</h3>
               <p className="footer-brand-p">
-                Consultoría de crecimiento para despachos de abogados medianos. Dirigida por Gonzalo
-                Castro y Carla Fresch Pons. Impulsada por The Funnel Box y Brandly.
+                Marketing, consultoría, formación y speaker para despachos de abogados medianos en
+                España, México y Argentina.
               </p>
             </div>
             <div className="footer-col">
               <h4>Servicios</h4>
               <ul>
-                <li><a href="#">Marketing jurídico</a></li>
-                <li><a href="#">Consultoría</a></li>
-                <li><a href="#">Formación</a></li>
-                <li><a href="#">Speaker</a></li>
-              </ul>
-            </div>
-            <div className="footer-col">
-              <h4>Firma</h4>
-              <ul>
-                <li><a href="#">Gonzalo Castro</a></li>
-                <li><a href="#">Carla Fresch Pons</a></li>
-                <li><a href="#">Metodología</a></li>
-                <li><a href="#">Casos</a></li>
+                <li><a href="#servicios">Marketing jurídico</a></li>
+                <li><a href="#servicios">Consultoría</a></li>
+                <li><a href="#servicios">Formación</a></li>
+                <li><a href="#servicios">Speaker</a></li>
               </ul>
             </div>
             <div className="footer-col">
               <h4>Más</h4>
               <ul>
-                <li><a href="#">Journal</a></li>
-                <li><a href="#">Benchmark 2026</a></li>
+                <li><a href="#casos">Casos</a></li>
+                <li><a href="#metodologia">Metodología</a></li>
+                <li><a href="#journal">Journal</a></li>
                 <li><a href="#contacto">Contacto</a></li>
-                <li><a href="#">LinkedIn</a></li>
+              </ul>
+            </div>
+            <div className="footer-col">
+              <h4>Impulsada por</h4>
+              <ul>
+                <li><a href="https://thefunnelbox.com">The Funnel Box</a></li>
+                <li><a href="#">Brandly</a></li>
               </ul>
             </div>
           </div>
           <div className="footer-bottom">
-            <div>
-              &copy; {year} TFB Legal · Impulsada por The Funnel Box y Brandly
-            </div>
+            <div>&copy; {year} TFB Legal · tfblegal.com</div>
             <div className="footer-bottom-right">
               <a href="#">Aviso legal</a>
               <a href="#">Privacidad</a>
               <a href="#">Cookies</a>
-              <button type="button" className="theme-toggle" id="themeToggle">
-                Tema
-              </button>
+              <button type="button" className="theme-toggle" id="themeToggle">Tema</button>
             </div>
           </div>
         </div>
